@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "second",
     "section": "",
-    "text": "向心力\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nFeb 29, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n向心加速度\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nFeb 29, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n质点系牛二\n\n\n\n\n\n\n动力学\n\n\n拓展知识\n\n\n\n\n\n\n\n\n\nFeb 29, 2024\n\n\n黄轶凡\n\n\n\n\n\n\nNo matching items"
+    "text": "生活中的圆周运动\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nMar 1, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n向心力\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nFeb 29, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n向心加速度\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nFeb 29, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n质点系牛二\n\n\n\n\n\n\n动力学\n\n\n拓展知识\n\n\n\n\n\n\n\n\n\nFeb 29, 2024\n\n\n黄轶凡\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -152,5 +152,33 @@
     "title": "向心加速度",
     "section": "课堂练习",
     "text": "课堂练习\n\n\n如图所示，轮 O_1、O_3 固定在同一转轴上，轮 O_1、O_2 用皮带连接且不打滑。在 O_1、O_2、O_3 三个轮的边缘各取一点 A、B、C，已知三个轮的半径之比 r_1∶r_2∶r_3=2∶1∶1，写出 A、B、C 三点的线速度、角速度、向心加速度之比。"
+  },
+  {
+    "objectID": "posts/生活中的圆周运动/生活中的圆周运动_quarto.html",
+    "href": "posts/生活中的圆周运动/生活中的圆周运动_quarto.html",
+    "title": "生活中的圆周运动",
+    "section": "",
+    "text": "如图所示，两个质量均为 m 的小木块 a 和 b（可视为质点）放在水平圆盘上，a 与转轴 OO' 的距离为 l，b 与转轴的距离为 2l。木块与圆盘的最大静摩擦力为木块所受重力的 \\mu 倍，重力加速度大小为 g，若圆盘从静止开始绕转轴缓慢地加速转动，用 \\omega 表示圆盘转动的角速度，求 a 和 b 分别开始滑动的临界速度？\n\n\n\n\n\n\n在上一题的基础上，a 和 b 用长为 l 的水平细绳连接。静止时，绳恰好伸直但无弹力，现让该装置从静止开始转动，使角速度缓慢增大，求：绳上开始有弹力时的角速度；a、b 与圆盘发生相对滑动的角速度。\n\n\n\n\n\n\n在上一题的基础上，将 a 移动到圆盘转轴的另一侧。a,b 的质量分别为 m_{1},m_{2}，与转轴的距离分别为 l_{1},l_{2}。求：a,b 在即将相对于圆盘发生滑动时的角速度。\n\n\n\n\n\n\n\n\n\n\n拓展\n\n\n\n可以运用质点系牛二简化计算\n\n\n\n\n\n\n\n\n两种高级方法\n\n\n\n\n非惯性参考系\n质心方程"
+  },
+  {
+    "objectID": "posts/生活中的圆周运动/生活中的圆周运动_quarto.html#圆盘模型",
+    "href": "posts/生活中的圆周运动/生活中的圆周运动_quarto.html#圆盘模型",
+    "title": "生活中的圆周运动",
+    "section": "",
+    "text": "如图所示，两个质量均为 m 的小木块 a 和 b（可视为质点）放在水平圆盘上，a 与转轴 OO' 的距离为 l，b 与转轴的距离为 2l。木块与圆盘的最大静摩擦力为木块所受重力的 \\mu 倍，重力加速度大小为 g，若圆盘从静止开始绕转轴缓慢地加速转动，用 \\omega 表示圆盘转动的角速度，求 a 和 b 分别开始滑动的临界速度？\n\n\n\n\n\n\n在上一题的基础上，a 和 b 用长为 l 的水平细绳连接。静止时，绳恰好伸直但无弹力，现让该装置从静止开始转动，使角速度缓慢增大，求：绳上开始有弹力时的角速度；a、b 与圆盘发生相对滑动的角速度。\n\n\n\n\n\n\n在上一题的基础上，将 a 移动到圆盘转轴的另一侧。a,b 的质量分别为 m_{1},m_{2}，与转轴的距离分别为 l_{1},l_{2}。求：a,b 在即将相对于圆盘发生滑动时的角速度。\n\n\n\n\n\n\n\n\n\n\n拓展\n\n\n\n可以运用质点系牛二简化计算\n\n\n\n\n\n\n\n\n两种高级方法\n\n\n\n\n非惯性参考系\n质心方程"
+  },
+  {
+    "objectID": "posts/生活中的圆周运动/生活中的圆周运动_quarto.html#绳模型",
+    "href": "posts/生活中的圆周运动/生活中的圆周运动_quarto.html#绳模型",
+    "title": "生活中的圆周运动",
+    "section": "绳模型",
+    "text": "绳模型\n特征：物体在竖直平面内做圆周运动，无支撑\n\n\n最高点\n向心力由重力和拉力提供，重力和拉力方向相同\n\nT + mg = m\\frac{v^2}{r}\n\n最高点最小速度（恰好能做圆周运动 or 恰好能过最高点）在绳上的拉力为零时取到\n\nmg = m\\frac{v^2}{r} \\Rightarrow v = \\sqrt{gr}\n\n\n\n最低点\n向心力由重力和拉力提供，重力和拉力方向相反\n\nT - mg = m\\frac{v^2}{r}"
+  },
+  {
+    "objectID": "posts/生活中的圆周运动/生活中的圆周运动_quarto.html#杆模型",
+    "href": "posts/生活中的圆周运动/生活中的圆周运动_quarto.html#杆模型",
+    "title": "生活中的圆周运动",
+    "section": "杆模型",
+    "text": "杆模型\n特征：物体在竖直平面内做圆周运动，有支撑"
   }
 ]
