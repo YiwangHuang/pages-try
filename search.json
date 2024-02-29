@@ -74,14 +74,14 @@
     "href": "posts/质点系牛二/质点系牛二_quarto.html",
     "title": "质点系牛二",
     "section": "",
-    "text": "表述：质点系的合外力等于各个质点的质量与加速度的乘积的矢量和 公式：\n\n\\overrightarrow{F_{\\text{合}}}=m_1\\overrightarrow{a_1}+m_2\\overrightarrow{a_2}+\\cdots +m_n\\overrightarrow{a_n}\n\n证明： \n\n\\begin{cases}\n    \\overrightarrow{F_A}+\\overrightarrow{F_{BA}}=m_A\\overrightarrow{a_A}\\\\\n    \\overrightarrow{F_B}+\\overrightarrow{F_{AB}}=m_B\\overrightarrow{a_B}\\\\\n\\end{cases}\\Rightarrow \\overrightarrow{F_A}+\\overrightarrow{F_B}=m_A\\overrightarrow{a_A}+m_B\\overrightarrow{a_B}"
+    "text": "表述：质点系的合外力等于各个质点的质量与加速度的乘积的矢量和\n公式：\n\n\\overrightarrow{F_{\\text{合}}}=m_1\\overrightarrow{a_1}+m_2\\overrightarrow{a_2}+\\cdots +m_n\\overrightarrow{a_n}\n\n证明： \n\n\\begin{cases}\n    \\overrightarrow{F_A}+\\overrightarrow{F_{BA}}=m_A\\overrightarrow{a_A}\\\\\n    \\overrightarrow{F_B}+\\overrightarrow{F_{AB}}=m_B\\overrightarrow{a_B}\\\\\n\\end{cases}\\Rightarrow \\overrightarrow{F_A}+\\overrightarrow{F_B}=m_A\\overrightarrow{a_A}+m_B\\overrightarrow{a_B}"
   },
   {
     "objectID": "posts/质点系牛二/质点系牛二_quarto.html#内容",
     "href": "posts/质点系牛二/质点系牛二_quarto.html#内容",
     "title": "质点系牛二",
     "section": "",
-    "text": "表述：质点系的合外力等于各个质点的质量与加速度的乘积的矢量和 公式：\n\n\\overrightarrow{F_{\\text{合}}}=m_1\\overrightarrow{a_1}+m_2\\overrightarrow{a_2}+\\cdots +m_n\\overrightarrow{a_n}\n\n证明： \n\n\\begin{cases}\n    \\overrightarrow{F_A}+\\overrightarrow{F_{BA}}=m_A\\overrightarrow{a_A}\\\\\n    \\overrightarrow{F_B}+\\overrightarrow{F_{AB}}=m_B\\overrightarrow{a_B}\\\\\n\\end{cases}\\Rightarrow \\overrightarrow{F_A}+\\overrightarrow{F_B}=m_A\\overrightarrow{a_A}+m_B\\overrightarrow{a_B}"
+    "text": "表述：质点系的合外力等于各个质点的质量与加速度的乘积的矢量和\n公式：\n\n\\overrightarrow{F_{\\text{合}}}=m_1\\overrightarrow{a_1}+m_2\\overrightarrow{a_2}+\\cdots +m_n\\overrightarrow{a_n}\n\n证明： \n\n\\begin{cases}\n    \\overrightarrow{F_A}+\\overrightarrow{F_{BA}}=m_A\\overrightarrow{a_A}\\\\\n    \\overrightarrow{F_B}+\\overrightarrow{F_{AB}}=m_B\\overrightarrow{a_B}\\\\\n\\end{cases}\\Rightarrow \\overrightarrow{F_A}+\\overrightarrow{F_B}=m_A\\overrightarrow{a_A}+m_B\\overrightarrow{a_B}"
   },
   {
     "objectID": "posts/质点系牛二/质点系牛二_quarto.html#例题",
