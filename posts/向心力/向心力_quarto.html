@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="黄轶凡">
+<meta name="dcterms.date" content="2024-02-29">
 
-<title>LovePhysics - second</title>
+<title>LovePhysics - 向心力</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,35 +68,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script><script defer src="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.js"></script>
   <script>document.addEventListener("DOMContentLoaded", function () {
@@ -142,7 +113,7 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -152,7 +123,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">LovePhysics</span>
     </a>
   </div>
@@ -163,7 +134,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -186,152 +157,190 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">second</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">向心力</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">动力学</div>
+                <div class="quarto-category">圆周运动</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>黄轶凡 </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 29, 2024</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="动力学">动力学 <span class="quarto-category-count">(3)</span></div><div class="category" data-category="圆周运动">圆周运动 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="拓展知识">拓展知识 <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#匀速圆周运动的向心力" id="toc-匀速圆周运动的向心力" class="nav-link active" data-scroll-target="#匀速圆周运动的向心力">匀速圆周运动的向心力</a></li>
+  <li><a href="#探究向心力大小的表达式" id="toc-探究向心力大小的表达式" class="nav-link" data-scroll-target="#探究向心力大小的表达式">探究向心力大小的表达式</a></li>
+  <li><a href="#变速圆周运动" id="toc-变速圆周运动" class="nav-link" data-scroll-target="#变速圆周运动">变速圆周运动</a></li>
+  <li><a href="#一般曲线运动的研究方法" id="toc-一般曲线运动的研究方法" class="nav-link" data-scroll-target="#一般曲线运动的研究方法">一般曲线运动的研究方法</a></li>
+  <li><a href="#课堂练习" id="toc-课堂练习" class="nav-link" data-scroll-target="#课堂练习">课堂练习</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<section id="匀速圆周运动的向心力" class="level2">
+<h2 class="anchored" data-anchor-id="匀速圆周运动的向心力">匀速圆周运动的向心力</h2>
+<ol type="1">
+<li><strong>定义</strong>：做匀速圆周运动的物体所受的合力总是指向圆心，这个指向圆心的力就叫作向心力。</li>
+<li><strong>方向</strong>：向心力总是沿半径指向圆心（与线速度方向垂直）。由于方向时刻改变，所以向心力是变力。</li>
+<li><strong>作用效果</strong>：向心力<strong>只改变速度的方向，不改变速度的大小</strong>。</li>
+<li><strong>来源</strong>：向心力可以由某个力或者几个力的合力提供，也可由某个力的分力提供。向心力是根据力的作用效果命名的。</li>
+</ol>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./assets/向心力.jpg" class="img-fluid figure-img"></p>
+<figcaption>地球公转</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./assets/向心力.png" class="img-fluid figure-img"></p>
+<figcaption>旋转秋千</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><p>向心力是效果力，“物体受到向心力的作用”这种表述是不合适的，应改成“物体的向心力由某某力提供”；</p></li>
+<li><p>中学阶段没有离心力这种表述。</p></li>
+</ol>
+</div>
+</div>
+</section>
+<section id="探究向心力大小的表达式" class="level2">
+<h2 class="anchored" data-anchor-id="探究向心力大小的表达式">探究向心力大小的表达式</h2>
+<ol type="1">
+<li>探究装置</li>
+<li>探究方法：控制变量</li>
+<li>结论：</li>
+</ol>
+<p><span class="math display">
+F_{n}=m\omega^{2}r
+</span></p>
+<p><span class="math display">
+F_{n}=m \frac{v^{2}}{r}
+</span></p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">提供 &gt; 需要</th>
+<th style="text-align: center;">提供 = 需要</th>
+<th style="text-align: center;">提供 &lt; 需要</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">向心/近心运动</td>
+<td style="text-align: center;">圆周运动</td>
+<td style="text-align: center;">离心运动</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="变速圆周运动" class="level2">
+<h2 class="anchored" data-anchor-id="变速圆周运动">变速圆周运动</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img src="./assets/向心力-2.png" class="img-fluid" alt="匀速圆周运动"> 合外力全部提供向心力</p>
+</div><div class="column" style="width:50%;">
+<p><img src="./assets/向心力-3.png" class="img-fluid" alt="变速圆周运动"> 合外力部分提供向心力</p>
+</div>
+</div>
+<div class="callout-todo">
+<p>找两张更美观的图</p>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="补充知识">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+补充知识
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>在 <span class="math inline">F_{n}</span> 和 <span class="math inline">F_{t}</span> 中，t 是切向 tangent 的首字母，n 是法向（垂直） normal 的首字母。</p>
+</div>
+</div>
+</section>
+<section id="一般曲线运动的研究方法" class="level2">
+<h2 class="anchored" data-anchor-id="一般曲线运动的研究方法">一般曲线运动的研究方法</h2>
+<iframe src="https://ggbtool.phycat.cn/front/?id=lt5jf3vx1nsf&amp;W=800&amp;H=600&amp;E=0&amp;B=1&amp;S=0&amp;P=0&amp;R=0&amp;L=1&amp;F=1&amp;RE=1" width="800" height="600" frameborder="0" scrolling="no" allowfullscreen="">
+</iframe>
+</section>
+<section id="课堂练习" class="level2">
+<h2 class="anchored" data-anchor-id="课堂练习">课堂练习</h2>
+<ol type="1">
+<li>做圆周运动的物体受到的向心力是该物体所受的合外力</li>
+<li>向心力是指向圆心方向的合力，是根据力的作用效果命名的</li>
+<li>向心力可以是重力、弹力、摩擦力等各种力的合力，也可以是其中一种力或一种力的分力</li>
+<li>向心力只改变物体运动的方向，不可能改变物体运动的快慢</li>
+<li>一小球被轻绳悬挂在竖直面内做圆周运动，其所受向心力为重力和绳子拉力的合力</li>
+</ol>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p>如图所示, 将完全相同的两小球 <span class="math inline">B</span>、<span class="math inline">A</span> 用长 <span class="math inline">L=0.8 m</span> 的细绳悬于以 <span class="math inline">v= 4 m / s</span> 向右匀速运动的小车顶部, 两球分别与小车前后壁接触. 由于某种原因, 小车突然停止运动, 求此时悬线的拉力之比 <span class="math inline">F_{B}∶F_{A}</span> ？(取 <span class="math inline">g=10 m / s^{2}</span>)</p>
+</div><div class="column" style="width:30%;">
+<p><img src="./assets/向心力-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p>如图所示, 有一质量为 m 的小球在光滑的半球形碗内做匀速圆周运动, 轨道平面在水平面内. 已知小球与半球形碗的球心 O 的连线跟竖直方向的夹角为θ, 半球形碗的半径为 R, 求小球做圆周运动的速度大小及碗壁对小球的弹力大小。</p>
+</div><div class="column" style="width:30%;">
+<p><img src="./assets/向心力-4.png" class="img-fluid"></p>
+</div>
+</div>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="动力学,圆周运动" data-listing-date-sort="1709136000000" data-listing-file-modified-sort="1709224011090" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="134">
-<div class="thumbnail">
-<p><a href="./posts/向心力/向心力_quarto.html" class="no-external"></a></p><a href="./posts/向心力/向心力_quarto.html" class="no-external">
-<p class="card-img-top"><img src="posts\向心力\assets\向心力.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/向心力/向心力_quarto.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/向心力/向心力_quarto.html" class="no-external">向心力</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/向心力/向心力_quarto.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('动力学'); return false;">
-动力学
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('圆周运动'); return false;">
-圆周运动
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/向心力/向心力_quarto.html" class="no-external">向心力是效果力，“物体受到向心力的作用”这种表述是不合适的，应改成“物体的向心力由某某力提供”；</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/向心力/向心力_quarto.html" class="no-external">
-<div class="listing-date">
-Feb 29, 2024
-</div>
-<div class="listing-author">
-黄轶凡
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="动力学,圆周运动" data-listing-date-sort="1709136000000" data-listing-file-modified-sort="1709224636927" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
-<div class="thumbnail">
-<p><a href="./posts/向心加速度/向心加速度_quarto.html" class="no-external"></a></p><a href="./posts/向心加速度/向心加速度_quarto.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/向心加速度/向心加速度_quarto.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/向心加速度/向心加速度_quarto.html" class="no-external">向心加速度</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/向心加速度/向心加速度_quarto.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('动力学'); return false;">
-动力学
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('圆周运动'); return false;">
-圆周运动
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/向心加速度/向心加速度_quarto.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/向心加速度/向心加速度_quarto.html" class="no-external">
-<div class="listing-date">
-Feb 29, 2024
-</div>
-<div class="listing-author">
-黄轶凡
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="动力学,拓展知识" data-listing-date-sort="1709136000000" data-listing-file-modified-sort="1709222132071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
-<div class="thumbnail">
-<p><a href="./posts/质点系牛二/质点系牛二_quarto.html" class="no-external"></a></p><a href="./posts/质点系牛二/质点系牛二_quarto.html" class="no-external">
-<p class="card-img-top"><img src="posts\质点系牛二\assets\质点系牛二.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/质点系牛二/质点系牛二_quarto.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/质点系牛二/质点系牛二_quarto.html" class="no-external">质点系牛二</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/质点系牛二/质点系牛二_quarto.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('动力学'); return false;">
-动力学
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('拓展知识'); return false;">
-拓展知识
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/质点系牛二/质点系牛二_quarto.html" class="no-external">表述：质点系的合外力等于各个质点的质量与加速度的乘积的矢量和</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/质点系牛二/质点系牛二_quarto.html" class="no-external">
-<div class="listing-date">
-Feb 29, 2024
-</div>
-<div class="listing-author">
-黄轶凡
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
