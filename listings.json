@@ -2,9 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/example_2/index.html",
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/质点系牛二/质点系牛二_quarto.html",
+      "/posts/example_2/index.html"
     ]
   }
 ]

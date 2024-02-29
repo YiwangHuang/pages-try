@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "second",
     "section": "",
-    "text": "示例文件\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nFeb 11, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nFeb 11, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 8, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "质点系牛二\n\n\n\n\n\n\n动力学\n\n\n拓展知识\n\n\n\n\n\n\n\n\n\nFeb 29, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n示例文件\n\n\n\n\n\n\n新\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nFeb 9, 2024\n\n\n黄轶凡\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -18,7 +18,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this blog"
+    "text": "黄轶凡的个人博客（Alpha）"
   },
   {
     "objectID": "posts/example_2/index.html",
@@ -68,5 +68,26 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/质点系牛二/质点系牛二_quarto.html",
+    "href": "posts/质点系牛二/质点系牛二_quarto.html",
+    "title": "质点系牛二",
+    "section": "",
+    "text": "表述：质点系的合外力等于各个质点的质量与加速度的乘积的矢量和 公式：\n\n\\overrightarrow{F_{\\text{合}}}=m_1\\overrightarrow{a_1}+m_2\\overrightarrow{a_2}+\\cdots +m_n\\overrightarrow{a_n}\n\n证明： \n\n\\begin{cases}\n    \\overrightarrow{F_A}+\\overrightarrow{F_{BA}}=m_A\\overrightarrow{a_A}\\\\\n    \\overrightarrow{F_B}+\\overrightarrow{F_{AB}}=m_B\\overrightarrow{a_B}\\\\\n\\end{cases}\\Rightarrow \\overrightarrow{F_A}+\\overrightarrow{F_B}=m_A\\overrightarrow{a_A}+m_B\\overrightarrow{a_B}"
+  },
+  {
+    "objectID": "posts/质点系牛二/质点系牛二_quarto.html#内容",
+    "href": "posts/质点系牛二/质点系牛二_quarto.html#内容",
+    "title": "质点系牛二",
+    "section": "",
+    "text": "表述：质点系的合外力等于各个质点的质量与加速度的乘积的矢量和 公式：\n\n\\overrightarrow{F_{\\text{合}}}=m_1\\overrightarrow{a_1}+m_2\\overrightarrow{a_2}+\\cdots +m_n\\overrightarrow{a_n}\n\n证明： \n\n\\begin{cases}\n    \\overrightarrow{F_A}+\\overrightarrow{F_{BA}}=m_A\\overrightarrow{a_A}\\\\\n    \\overrightarrow{F_B}+\\overrightarrow{F_{AB}}=m_B\\overrightarrow{a_B}\\\\\n\\end{cases}\\Rightarrow \\overrightarrow{F_A}+\\overrightarrow{F_B}=m_A\\overrightarrow{a_A}+m_B\\overrightarrow{a_B}"
+  },
+  {
+    "objectID": "posts/质点系牛二/质点系牛二_quarto.html#例题",
+    "href": "posts/质点系牛二/质点系牛二_quarto.html#例题",
+    "title": "质点系牛二",
+    "section": "例题",
+    "text": "例题\n\n\n考虑所有接触面的摩擦，已知 m_{1},m_{2},a_{1},a_{2} ，B 对地面的摩擦力是 f，求 F。\n\n\n\n\n\n\n倾角为 \\alpha 的固定光滑斜面，木板质量是猫的2倍，当绳突然断开时，猫立即向上跑，以保持其相对斜面位置不变，求此时木板沿斜面下滑的加速度。"
   }
 ]
