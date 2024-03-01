@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.541">
+<meta name="generator" content="quarto-1.4.542">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -207,7 +207,10 @@ window.Quarto = {
   <li><a href="#最高点" id="toc-最高点" class="nav-link" data-scroll-target="#最高点">最高点</a></li>
   <li><a href="#最低点" id="toc-最低点" class="nav-link" data-scroll-target="#最低点">最低点</a></li>
   </ul></li>
-  <li><a href="#杆模型" id="toc-杆模型" class="nav-link" data-scroll-target="#杆模型">杆模型</a></li>
+  <li><a href="#杆模型" id="toc-杆模型" class="nav-link" data-scroll-target="#杆模型">杆模型</a>
+  <ul class="collapse">
+  <li><a href="#例题" id="toc-例题" class="nav-link" data-scroll-target="#例题">例题</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -307,8 +310,90 @@ T - mg = m\frac{v^2}{r}
 <h2 class="anchored" data-anchor-id="杆模型">杆模型</h2>
 <p><strong>特征</strong>：物体在竖直平面内做圆周运动，有支撑</p>
 <p><img src="./assets/生活中的圆周运动-4.png" class="img-fluid"></p>
+<section id="例题" class="level3">
+<h3 class="anchored" data-anchor-id="例题">例题</h3>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p>如图所示，长 <span class="math inline">L＝0.5m</span> 的轻杆一端在 <span class="math inline">O</span> 点，另一端连接着一个零件 <span class="math inline">A</span>，<span class="math inline">A</span> 的质量 <span class="math inline">m＝2 kg</span>，重力加速度 <span class="math inline">g</span> 取 <span class="math inline">10 m / s^{2}</span>.现让 <span class="math inline">A</span> 在竖直平面内绕 <span class="math inline">O</span> 点做匀速圆周运动，在 <span class="math inline">A</span> 通过最高点时，求下列两种情况下 <span class="math inline">A</span> 对杆的作用力： (1) <span class="math inline">A</span> 的速率为 <span class="math inline">1\;m / s</span>； (2) <span class="math inline">A</span> 的速率为 <span class="math inline">4\;m / s</span>。</p>
+</div><div class="column" style="width:30%;">
+<p><img src="./assets/生活中的圆周运动-5.png" class="img-fluid"></p>
+</div>
+</div>
+<p><strong>详解：</strong></p>
+<p>求通过最高点时向心力仅由重力提供的临界速度 <span class="math inline">v_{0}</span></p>
+<p><span class="math display">
+mg = m \frac{v_{0}^{2}}{L} \Rightarrow v_{0} = \sqrt{ gL } = \sqrt{ 5 }\; m / s
+</span></p>
+<p>比较得 <span class="math inline">v_{1}&lt;v_{0}&lt;v_{2}</span>，所以对于 <span class="math inline">v_{1}</span>，杆对其有向上的支持力 <span class="math inline">F_{N}</span>；所以对于 <span class="math inline">v_{2}</span>，杆对其有向下的拉力 <span class="math inline">F_{T}</span>。</p>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p><span class="math display">
+mg-F_{N} = m\frac{v_{1}^{2}}{L} \Rightarrow F_{N}=16\; N
+</span></p>
+</div><div class="column" style="width:30%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./assets/生活中的圆周运动-6.png" class="img-fluid figure-img"></p>
+<figcaption>第一问</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p><span class="math display">
+mg+F_{T} = m\frac{v_{1}^{2}}{L} \Rightarrow F_{T}=44\; N
+</span></p>
+</div><div class="column" style="width:30%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./assets/生活中的圆周运动-7.png" class="img-fluid figure-img"></p>
+<figcaption>第二问</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>由于力的作用是相互的， <span class="math inline">A</span> 对杆的作用力在数值上与 <span class="math inline">F_{N},F_{T}</span> 相等。</p>
+<div class="callout callout-style-default callout-important callout-titled" title="便捷做法">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+便捷做法
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>可以不用讨论杆对物体力 <span class="math inline">F</span> 的方向，假设一个方向列示计算，如果计算结果为证，则 <span class="math inline">F</span> 与假设的方向相同，否则相反。</p>
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:70%;">
+<div class="callout callout-style-default callout-warning callout-titled" title="易错点">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+易错点
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>向心力是效果力，是研究对象所受其他性质力的作用效果。受力分析只需考虑性质力。</p>
+</div>
+</div>
+</div><div class="column" style="width:30%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./assets/生活中的圆周运动-8.png" class="img-fluid figure-img"></p>
+<figcaption>错误的受力分析</figcaption>
+</figure>
+</div>
+</div>
+</div>
 
 
+</section>
 </section>
 </section>
 
