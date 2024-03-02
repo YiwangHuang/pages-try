@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "LovePhysics",
     "section": "",
-    "text": "生活中的圆周运动\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nMar 1, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n向心力\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nFeb 29, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n向心加速度\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nFeb 29, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n质点系牛二\n\n\n\n\n\n\n动力学\n\n\n拓展知识\n\n\n\n\n\n\n\n\n\nFeb 29, 2024\n\n\n黄轶凡\n\n\n\n\n\n\nNo matching items"
+    "text": "非惯性系和惯性力\n\n\n\n\n\n\n动力学\n\n\n拓展知识\n\n\n\n\n\n\n\n\n\nMar 2, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n生活中的圆周运动\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nMar 1, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n向心力\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nFeb 29, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n向心加速度\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nFeb 29, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n质点系牛二\n\n\n\n\n\n\n动力学\n\n\n拓展知识\n\n\n\n\n\n\n\n\n\nFeb 29, 2024\n\n\n黄轶凡\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -88,7 +88,7 @@
     "href": "posts/质点系牛二/质点系牛二_quarto.html#例题",
     "title": "质点系牛二",
     "section": "例题",
-    "text": "例题\n\n\n考虑所有接触面的摩擦，已知 m_{1},m_{2},a_{1},a_{2} ，B 对地面的摩擦力是 f，求 F。\n\n\n\n\n\n\n倾角为 \\alpha 的固定光滑斜面，木板质量是猫的2倍，当绳突然断开时，猫立即向上跑，以保持其相对斜面位置不变，求此时木板沿斜面下滑的加速度。"
+    "text": "例题\n\n例 1\n\n\n考虑所有接触面的摩擦，已知 m_{1},m_{2},a_{1},a_{2} ，B 对地面的摩擦力是 f，求 F。\n\n\n\n\n隔离法：分别对 A,B 进行受力分析，列方程组\n\n\\begin{cases}\nF-f_{AB}=m_{1}a_{1}\\\\\nf_{AB}-f=m_{2}a_{2}\\\\\n\\end{cases}\\Rightarrow F-f = m_{1}a_{1}+m_{2}a_{2}\n\n质点系牛二：当我们对 A,B 间的作用力不感兴趣时，可以对整个质点系进行受力分析，得到\n\nF-f = m_{1}a_{1}+m_{2}a_{2}\n\n质点系受到的外力只有向左的 f 和向右的 F，质点 A,B 的加速度都是向右的。\n\n\n例 2\n\n\n倾角为 \\alpha 的固定光滑斜面，木板质量是猫的2倍，当绳突然断开时，猫立即向上跑，以保持其相对斜面位置不变，求此时木板沿斜面下滑的加速度。\n\n\n\n\n\n\n例 3\n\n\n物体 B 放在 A 上，A、B 的上下表面均与斜面平行，当两者以相同的初速度靠惯性沿固定斜，B 无相对滑动。已知 m_A、m_B、m_C、\\theta 和 B,C 间动摩擦因数 \\mu 。求：A,B 间的摩擦力；地面对 C 的支持力和摩擦力。\n\n\n\n\n\n\n例 4\n\n\n如图所示，质量为 m_A 的物体 A 沿直角斜面 C 下滑，质量为 m_a 的物体 B 上升，斜面与水平面成 \\theta 角，滑轮与绳的质量及一切摩擦均忽略不计，求斜面作用于地面凸出部分的水平压力的大小。\n\n\n\n\n\n\n例 5\n\n\n如图所示，小框架的质量为 M，中间支柱上套有一个质量为 m 的滑环，今使滑环以初速度 v_{0} 竖直抛出，致使整个框架恰好对地面没有作用力，滑环上升的加速度是多大？"
   },
   {
     "objectID": "posts/向心力/向心力_quarto.html",
@@ -179,6 +179,13 @@
     "href": "posts/生活中的圆周运动/生活中的圆周运动_quarto.html#杆模型",
     "title": "生活中的圆周运动",
     "section": "杆模型",
-    "text": "杆模型\n特征：物体在竖直平面内做圆周运动，有支撑\n\n\n例题\n\n\n如图所示，长 L＝0.5m 的轻杆一端在 O 点，另一端连接着一个零件 A，A 的质量 m＝2 kg，重力加速度 g 取 10 m / s^{2}.现让 A 在竖直平面内绕 O 点做匀速圆周运动，在 A 通过最高点时，求下列两种情况下 A 对杆的作用力： (1) A 的速率为 1\\;m / s； (2) A 的速率为 4\\;m / s。\n\n\n\n\n详解：\n求通过最高点时向心力仅由重力提供的临界速度 v_{0}\n\nmg = m \\frac{v_{0}^{2}}{L} \\Rightarrow v_{0} = \\sqrt{ gL } = \\sqrt{ 5 }\\; m / s\n\n比较得 v_{1}&lt;v_{0}&lt;v_{2}，所以对于 v_{1}，杆对其有向上的支持力 F_{N}；所以对于 v_{2}，杆对其有向下的拉力 F_{T}。\n\n\n\n(1)\\; mg-F_{N} = m\\frac{v_{1}^{2}}{L} \\Rightarrow F_{N}=16\\; N\n\n\n(2)\\; mg+F_{T} = m\\frac{v_{1}^{2}}{L} \\Rightarrow F_{T}=44\\; N\n\n\n\n\n\n第一问\n\n\n\n\n\n\n第二问\n\n\n\n\n由于力的作用是相互的， A 对杆的作用力在数值上与 F_{N},F_{T} 相等。\n\n\n\n\n\n\n便捷做法\n\n\n\n可以不用讨论杆对物体力 F 的方向，假设一个方向列示计算，如果计算结果为证，则 F 与假设的方向相同，否则相反。\n\n\n\n\n\n\n\n\n\n\n易错点\n\n\n\n向心力是效果力，是研究对象所受其他性质力的作用效果。受力分析只需考虑性质力。\n\n\n\n\n\n\n错误的受力分析"
+    "text": "杆模型\n特征：物体在竖直平面内做圆周运动，有支撑\n\n\n例题\n\n\n如图所示，长 L＝0.5m 的轻杆一端在 O 点，另一端连接着一个零件 A，A 的质量 m＝2 kg，重力加速度 g 取 10 m / s^{2}.现让 A 在竖直平面内绕 O 点做匀速圆周运动，在 A 通过最高点时，求下列两种情况下 A 对杆的作用力： (1) A 的速率为 1\\;m / s； (2) A 的速率为 4\\;m / s。\n\n\n\n\n详解：\n求通过最高点时向心力仅由重力提供的临界速度 v_{0}\n\nmg = m \\frac{v_{0}^{2}}{L} \\Rightarrow v_{0} = \\sqrt{ gL } = \\sqrt{ 5 }\\; m / s\n\n比较得 v_{1}&lt;v_{0}&lt;v_{2}，所以对于 v_{1}，杆对其有向上的支持力 F_{N}；所以对于 v_{2}，杆对其有向下的拉力 F_{T}。\n\n\n\n(1)\\; mg-F_{N} = m\\frac{v_{1}^{2}}{L} \\Rightarrow F_{N}=16\\; N\n\n\n(2)\\; mg+F_{T} = m\\frac{v_{1}^{2}}{L} \\Rightarrow F_{T}=44\\; N\n\n\n\n\n\n第一问\n\n\n\n\n\n\n第二问\n\n\n\n\n由于力的作用是相互的， A 对杆的作用力在数值上与 F_{N},F_{T} 相等。\n\n\n\n\n\n\n便捷做法\n\n\n\n可以不用讨论杆对物体力 F 的方向，假设一个方向列示计算，如果计算结果为证，则 F 与假设的方向相同，否则相反。\n\n\n\n\n\n\n\n\n\n\n易错点\n\n\n\n向心力是效果力，是根据力的作用效果命名的，没有施力物体。受力分析只需考虑性质力。\n\n\n\n\n\n\n错误的受力分析"
+  },
+  {
+    "objectID": "posts/非惯性参考系和惯性力/非惯性参考系和惯性力_quarto.html",
+    "href": "posts/非惯性参考系和惯性力/非惯性参考系和惯性力_quarto.html",
+    "title": "非惯性系和惯性力",
+    "section": "",
+    "text": "惯性系和非惯性系\n\n\n非惯性参考系的平衡方程\n共点力平衡：\n\n\\sum_n\\overrightarrow{F_n}=0\n\n牛二定律：\n\n\\sum_n\\overrightarrow{F_n}=ma\n\n非惯性参考系的平衡方程\n\n\\sum_{n}\\overrightarrow{F_{n}}+\\overrightarrow{F_{i}}=0,\\,\\text{where}\\;\n\\overrightarrow{F_{i}}=-m\\overrightarrow{a}\n\n\n\n\n\n\n\n小结\n\n\n\n惯性力 (inertial force) 的符号是 F_{i} ，方向与加速度 a 相反，在数值上等于 ma。惯性力不是真实存在的。"
   }
 ]
