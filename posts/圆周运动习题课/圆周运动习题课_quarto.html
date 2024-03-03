@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="黄轶凡">
-<meta name="dcterms.date" content="2024-03-01">
+<meta name="dcterms.date" content="2024-03-03">
 
-<title>LovePhysics - 生活中的圆周运动</title>
+<title>LovePhysics - 圆周运动习题课</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -158,7 +158,7 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">生活中的圆周运动</h1>
+      <h1 class="title">圆周运动习题课</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">动力学</div>
                 <div class="quarto-category">圆周运动</div>
@@ -179,7 +179,7 @@ window.Quarto = {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">March 1, 2024</p>
+        <p class="date">March 3, 2024</p>
       </div>
     </div>
     
@@ -195,32 +195,10 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#水平圆周运动" id="toc-水平圆周运动" class="nav-link active" data-scroll-target="#水平圆周运动">水平圆周运动</a>
-  <ul class="collapse">
-  <li><a href="#圆锥摆" id="toc-圆锥摆" class="nav-link" data-scroll-target="#圆锥摆">圆锥摆</a></li>
-  <li><a href="#离心向心运动" id="toc-离心向心运动" class="nav-link" data-scroll-target="#离心向心运动">离心/向心运动</a>
-  <ul class="collapse">
-  <li><a href="#例-1" id="toc-例-1" class="nav-link" data-scroll-target="#例-1">例 1</a></li>
-  </ul></li>
-  <li><a href="#圆盘模型" id="toc-圆盘模型" class="nav-link" data-scroll-target="#圆盘模型">圆盘模型</a>
-  <ul class="collapse">
-  <li><a href="#例-1-1" id="toc-例-1-1" class="nav-link" data-scroll-target="#例-1-1">例 1</a></li>
-  <li><a href="#例-2" id="toc-例-2" class="nav-link" data-scroll-target="#例-2">例 2</a></li>
-  <li><a href="#例-3" id="toc-例-3" class="nav-link" data-scroll-target="#例-3">例 3</a></li>
-  </ul></li>
-  </ul></li>
-  <li><a href="#竖直圆周运动" id="toc-竖直圆周运动" class="nav-link" data-scroll-target="#竖直圆周运动">竖直圆周运动</a>
-  <ul class="collapse">
-  <li><a href="#绳模型" id="toc-绳模型" class="nav-link" data-scroll-target="#绳模型">绳模型</a>
-  <ul class="collapse">
-  <li><a href="#最高点" id="toc-最高点" class="nav-link" data-scroll-target="#最高点">最高点</a></li>
-  <li><a href="#最低点" id="toc-最低点" class="nav-link" data-scroll-target="#最低点">最低点</a></li>
-  </ul></li>
-  <li><a href="#杆模型" id="toc-杆模型" class="nav-link" data-scroll-target="#杆模型">杆模型</a>
-  <ul class="collapse">
-  <li><a href="#例题" id="toc-例题" class="nav-link" data-scroll-target="#例题">例题</a></li>
-  </ul></li>
-  </ul></li>
+  <li><a href="#练习-1" id="toc-练习-1" class="nav-link active" data-scroll-target="#练习-1">练习 1</a></li>
+  <li><a href="#练习-2" id="toc-练习-2" class="nav-link" data-scroll-target="#练习-2">练习 2</a></li>
+  <li><a href="#练习-3" id="toc-练习-3" class="nav-link" data-scroll-target="#练习-3">练习 3</a></li>
+  <li><a href="#练习-4" id="toc-练习-4" class="nav-link" data-scroll-target="#练习-4">练习 4</a></li>
   </ul>
 </nav>
     </div>
@@ -231,210 +209,47 @@ window.Quarto = {
 
 
 
-<section id="水平圆周运动" class="level1">
-<h1>水平圆周运动</h1>
-<section id="圆锥摆" class="level2">
-<h2 class="anchored" data-anchor-id="圆锥摆">圆锥摆</h2>
-</section>
-<section id="离心向心运动" class="level2">
-<h2 class="anchored" data-anchor-id="离心向心运动">离心/向心运动</h2>
-<section id="例-1" class="level3">
-<h3 class="anchored" data-anchor-id="例-1">例 1</h3>
-<div class="columns">
-<div class="column" style="width:80%;">
-<p>2022年我国航天员在空间站太空舱开设“天宫课堂”，课堂演示了“水油分离”实验。如图所示，用细绳系住装有水和油的瓶子，手持细绳的另一端，使瓶子在竖直平面内做圆周运动，问水油分离后，哪种液体在外侧？（水的密度比油大）</p>
-</div><div class="column" style="width:20%;">
-<p><img src="./assets/生活中的圆周运动-9.png" class="img-fluid"></p>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>既能用离心运动的知识解释，又能换参考系考虑惯性力分析</p>
-</div>
-</div>
-</section>
-</section>
-<section id="圆盘模型" class="level2">
-<h2 class="anchored" data-anchor-id="圆盘模型">圆盘模型</h2>
-<section id="例-1-1" class="level3">
-<h3 class="anchored" data-anchor-id="例-1-1">例 1</h3>
+<section id="练习-1" class="level2">
+<h2 class="anchored" data-anchor-id="练习-1">练习 1</h2>
 <div class="columns">
 <div class="column" style="width:70%;">
-<p>如图所示，两个质量均为 <span class="math inline">m</span> 的小木块 <span class="math inline">a</span> 和 <span class="math inline">b</span>（可视为质点）放在水平圆盘上，<span class="math inline">a</span> 与转轴 <span class="math inline">OO'</span> 的距离为 <span class="math inline">l</span>，<span class="math inline">b</span> 与转轴的距离为 <span class="math inline">2l</span>。木块与圆盘的最大静摩擦力为木块所受重力的 <span class="math inline">\mu</span> 倍，重力加速度大小为 <span class="math inline">g</span>，若圆盘从静止开始绕转轴<strong>缓慢</strong>地加速转动，用 <span class="math inline">\omega</span> 表示圆盘转动的角速度，求 <span class="math inline">a</span> 和 <span class="math inline">b</span> 分别开始滑动的临界速度？</p>
+<p>如图，半径为 <span class="math inline">R</span> 的匀质实心圆盘。盘面与水平面的夹角为 <span class="math inline">\theta</span>，开始时圆盘静止。其上表面均匀覆盖着一层细沙没有掉落，细沙与盘面间的动摩擦因数为 <span class="math inline">\mu</span>，设最大静摩擦力等于滑动摩擦力。现让圆盘绕垂直于盘面的固定对称轴旋转，其角速度从 <span class="math inline">0</span> 开始缓慢增加到 <span class="math inline">\omega</span>（未知）。此时圆盘表面上的细沙有 <span class="math inline">\frac{8}{9}</span> 被甩掉，重力加速度为 <span class="math inline">g</span>。则 <span class="math inline">\omega</span> 的值为</p>
 </div><div class="column" style="width:30%;">
-<p><img src="./assets/生活中的圆周运动.png" class="img-fluid"></p>
+<p><img src="./assets/圆周运动习题课.png" class="img-fluid"></p>
 </div>
 </div>
 </section>
-<section id="例-2" class="level3">
-<h3 class="anchored" data-anchor-id="例-2">例 2</h3>
+<section id="练习-2" class="level2">
+<h2 class="anchored" data-anchor-id="练习-2">练习 2</h2>
 <div class="columns">
 <div class="column" style="width:70%;">
-<p>在上一题的基础上，<span class="math inline">a</span> 和 <span class="math inline">b</span> 用长为 <span class="math inline">l</span> 的水平细绳连接。静止时，绳恰好伸直但无弹力，现让该装置从静止开始转动，使角速度缓慢增大，求：绳上开始有弹力时的角速度；<span class="math inline">a</span>、<span class="math inline">b</span> 与圆盘发生相对滑动的角速度。</p>
+<p>如图所示，小球 <span class="math inline">A</span> 可视为质点，装置静止时轻质细线 <span class="math inline">AB</span> 水平，轻质细线 <span class="math inline">AC</span> 与竖直方向的夹角 <span class="math inline">37°</span>。已知小球的质量为 <span class="math inline">m</span>，细线 <span class="math inline">AC</span> 长 <span class="math inline">l</span>，<span class="math inline">B</span> 点距 <span class="math inline">C</span> 点的水平和竖直距离相等。装置能以任意角速度绕竖直轴转动，且小球始终在 <span class="math inline">BO'O</span> 平面内，那么在角速度 <span class="math inline">\omega</span> 从零缓慢增大的过程中，分析细线 <span class="math inline">AC</span> 和 <span class="math inline">AB</span> 的张力变化情况（求出角速度 <span class="math inline">\omega</span> 的临界值 ）</p>
 </div><div class="column" style="width:30%;">
-<p><img src="./assets/生活中的圆周运动-1.png" class="img-fluid"></p>
+<p><img src="./assets/圆周运动习题课-3.png" class="img-fluid"></p>
 </div>
 </div>
 </section>
-<section id="例-3" class="level3">
-<h3 class="anchored" data-anchor-id="例-3">例 3</h3>
+<section id="练习-3" class="level2">
+<h2 class="anchored" data-anchor-id="练习-3">练习 3</h2>
 <div class="columns">
 <div class="column" style="width:70%;">
-<p>在上一题的基础上，将 <span class="math inline">a</span> 移动到圆盘转轴的另一侧。<span class="math inline">a,b</span> 的质量分别为 <span class="math inline">m_{1},m_{2}</span>，与转轴的距离分别为 <span class="math inline">l_{1},l_{2}</span>。求：<span class="math inline">a,b</span> 在即将相对于圆盘发生滑动时的角速度。</p>
+<p>如图所示，厨师在展示厨艺时，将蛋糕放置在一水平托盘上，并控制托盘做竖直平面内半径为 <span class="math inline">R</span> 的匀速圆周运动，托盘始终保持水平。蛋糕可视为质点，与托盘之间的动摩擦因数为 <span class="math inline">\mu</span>，最大静摩擦力等于滑动摩擦力，重力加速度为 <span class="math inline">g</span>。若蛋糕始终与托盘保持相对静止，则托盘做匀速圆周运动的最大速率为</p>
 </div><div class="column" style="width:30%;">
-<p><img src="./assets/生活中的圆周运动-2.png" class="img-fluid"></p>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled" title="拓展">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-拓展
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>可以运用质点系牛二简化计算</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled" title="两种高级方法">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-两种高级方法
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ol type="1">
-<li><p>非惯性参考系</p></li>
-<li><p>质心方程</p></li>
-</ol>
+<p><img src="./assets/圆周运动习题课-2.png" class="img-fluid"></p>
 </div>
 </div>
 </section>
-</section>
-</section>
-<section id="竖直圆周运动" class="level1">
-<h1>竖直圆周运动</h1>
-<section id="绳模型" class="level2">
-<h2 class="anchored" data-anchor-id="绳模型">绳模型</h2>
-<p><strong>特征</strong>：物体在竖直平面内做圆周运动，无支撑</p>
-<p><img src="./assets/生活中的圆周运动-3.png" class="img-fluid"></p>
-<section id="最高点" class="level3">
-<h3 class="anchored" data-anchor-id="最高点">最高点</h3>
-<p>向心力由重力和拉力提供，重力和拉力方向相同</p>
-<p><span class="math display">
-T + mg = m\frac{v^2}{r}
-</span></p>
-<p>最高点最小速度（恰好能做圆周运动 or 恰好能过最高点）在绳上的拉力为零时取到</p>
-<p><span class="math display">
-mg = m\frac{v^2}{r} \Rightarrow v = \sqrt{gr}
-</span></p>
-</section>
-<section id="最低点" class="level3">
-<h3 class="anchored" data-anchor-id="最低点">最低点</h3>
-<p>向心力由重力和拉力提供，重力和拉力方向相反</p>
-<p><span class="math display">
-T - mg = m\frac{v^2}{r}
-</span></p>
-</section>
-</section>
-<section id="杆模型" class="level2">
-<h2 class="anchored" data-anchor-id="杆模型">杆模型</h2>
-<p><strong>特征</strong>：物体在竖直平面内做圆周运动，有支撑</p>
-<p><img src="./assets/生活中的圆周运动-4.png" class="img-fluid"></p>
-<section id="例题" class="level3">
-<h3 class="anchored" data-anchor-id="例题">例题</h3>
+<section id="练习-4" class="level2">
+<h2 class="anchored" data-anchor-id="练习-4">练习 4</h2>
 <div class="columns">
-<div class="column" style="width:77%;">
-<p>如图所示，长 <span class="math inline">L＝0.5m</span> 的轻杆一端在 <span class="math inline">O</span> 点，另一端连接着一个零件 <span class="math inline">A</span>，<span class="math inline">A</span> 的质量 <span class="math inline">m＝2 kg</span>，重力加速度 <span class="math inline">g</span> 取 <span class="math inline">10 m / s^{2}</span>.现让 <span class="math inline">A</span> 在竖直平面内绕 <span class="math inline">O</span> 点做匀速圆周运动，在 <span class="math inline">A</span> 通过最高点时，求下列两种情况下 <span class="math inline">A</span> 对杆的作用力： (1) <span class="math inline">A</span> 的速率为 <span class="math inline">1\;m / s</span>； (2) <span class="math inline">A</span> 的速率为 <span class="math inline">4\;m / s</span>。</p>
-</div><div class="column" style="width:23%;">
-<p><img src="./assets/生活中的圆周运动-5.png" class="img-fluid"></p>
-</div>
-</div>
-<p><strong>详解：</strong></p>
-<p>求通过最高点时向心力仅由重力提供的临界速度 <span class="math inline">v_{0}</span></p>
-<p><span class="math display">
-mg = m \frac{v_{0}^{2}}{L} \Rightarrow v_{0} = \sqrt{ gL } = \sqrt{ 5 }\; m / s
-</span></p>
-<p>比较得 <span class="math inline">v_{1}&lt;v_{0}&lt;v_{2}</span>，所以对于 <span class="math inline">v_{1}</span>，杆对其有向上的支持力 <span class="math inline">F_{N}</span>；所以对于 <span class="math inline">v_{2}</span>，杆对其有向下的拉力 <span class="math inline">F_{T}</span>。</p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><span class="math display">
-(1)\; mg-F_{N} = m\frac{v_{1}^{2}}{L} \Rightarrow F_{N}=16\; N
-</span></p>
-<p><span class="math display">
-(2)\; mg+F_{T} = m\frac{v_{1}^{2}}{L} \Rightarrow F_{T}=44\; N
-</span></p>
+<div class="column" style="width:75%;">
+<p>如图所示（俯视图），用自然长度为 <span class="math inline">L_0</span> 劲度系数为 <span class="math inline">k</span> 的轻质弹簧，将质量均为 <span class="math inline">m</span> 的两个小物块 <span class="math inline">P</span>、<span class="math inline">Q</span> 连接在一起，放置在能绕 <span class="math inline">O</span> 点在水平面内转动的圆盘上，物体 <span class="math inline">P</span>、<span class="math inline">Q</span> 和 <span class="math inline">O</span> 点恰好组成一个边长为 <span class="math inline">2 L_0</span> 的正三角形。已知小物块 <span class="math inline">P</span>、<span class="math inline">Q</span> 和圆盘间的最大静摩擦力均为，现使圆盘带动两个物体以不同的角速度做匀速圆周运动，求：(1) 圆盘对 <span class="math inline">Q</span> 的摩擦力的大小等于弹簧弹力的大小时，圆盘的角速度 <span class="math inline">\omega</span>；(2) 当物块 <span class="math inline">P</span>、<span class="math inline">Q</span> 刚要滑动时，圆盘的角速度 <span class="math inline">\omega</span>；(3) 圆盘对 <span class="math inline">P</span> 的摩擦力最小时的角速度 <span class="math inline">\omega</span>。</p>
 </div><div class="column" style="width:25%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="./assets/生活中的圆周运动-6.png" class="img-fluid figure-img"></p>
-<figcaption>第一问</figcaption>
-</figure>
-</div>
-</div><div class="column" style="width:25%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="./assets/生活中的圆周运动-7.png" class="img-fluid figure-img"></p>
-<figcaption>第二问</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<p>由于力的作用是相互的， <span class="math inline">A</span> 对杆的作用力在数值上与 <span class="math inline">F_{N},F_{T}</span> 相等。</p>
-<div class="callout callout-style-default callout-note callout-titled" title="便捷做法">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-便捷做法
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>可以不用讨论杆对物体力 <span class="math inline">F</span> 的方向，假设一个方向列示计算，如果计算结果为证，则 <span class="math inline">F</span> 与假设的方向相同，否则相反。</p>
-</div>
-</div>
-<div class="columns">
-<div class="column" style="width:70%;">
-<div class="callout callout-style-default callout-warning callout-titled" title="易错点">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-易错点
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>向心力是效果力，是根据力的作用效果命名的，没有施力物体。受力分析只需考虑性质力。</p>
-</div>
-</div>
-</div><div class="column" style="width:30%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="./assets/生活中的圆周运动-8.png" class="img-fluid figure-img"></p>
-<figcaption>错误的受力分析</figcaption>
-</figure>
-</div>
+<p><img src="./assets/圆周运动习题课-1.png" class="img-fluid"></p>
 </div>
 </div>
 
 
-</section>
-</section>
 </section>
 
 </main> <!-- /main -->
