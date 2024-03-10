@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="黄轶凡">
+<meta name="dcterms.date" content="2024-03-10">
 
-<title>LovePhysics</title>
+<title>LovePhysics - 万有引力定律</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,35 +68,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 
   <script defer="" src="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.js"></script>
   <script>document.addEventListener("DOMContentLoaded", function () {
@@ -142,7 +113,7 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -152,7 +123,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">LovePhysics</span>
     </a>
   </div>
@@ -163,7 +134,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -186,296 +157,189 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">LovePhysics</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">万有引力定律</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">动力学</div>
+                <div class="quarto-category">圆周运动</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>黄轶凡 </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">March 10, 2024</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="动力学">动力学 <span class="quarto-category-count">(7)</span></div><div class="category" data-category="圆周运动">圆周运动 <span class="quarto-category-count">(5)</span></div><div class="category" data-category="拓展知识">拓展知识 <span class="quarto-category-count">(2)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#万有引力定律" id="toc-万有引力定律" class="nav-link active" data-scroll-target="#万有引力定律">万有引力定律</a>
+  <ul class="collapse">
+  <li><a href="#推导" id="toc-推导" class="nav-link" data-scroll-target="#推导">推导</a></li>
+  <li><a href="#万有引力公式" id="toc-万有引力公式" class="nav-link" data-scroll-target="#万有引力公式">万有引力公式</a></li>
+  <li><a href="#引力常量" id="toc-引力常量" class="nav-link" data-scroll-target="#引力常量">引力常量</a></li>
+  <li><a href="#比例问题" id="toc-比例问题" class="nav-link" data-scroll-target="#比例问题">比例问题</a></li>
+  </ul></li>
+  <li><a href="#纬度对重力的影响考虑地球的自转" id="toc-纬度对重力的影响考虑地球的自转" class="nav-link" data-scroll-target="#纬度对重力的影响考虑地球的自转">纬度对重力的影响（考虑地球的自转）</a></li>
+  <li><a href="#均匀球壳的万有引力" id="toc-均匀球壳的万有引力" class="nav-link" data-scroll-target="#均匀球壳的万有引力">均匀球壳的万有引力</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<section id="万有引力定律" class="level2">
+<h2 class="anchored" data-anchor-id="万有引力定律">万有引力定律</h2>
+<section id="推导" class="level3">
+<h3 class="anchored" data-anchor-id="推导">推导</h3>
+<p>太阳和行星的质量分别为 <span class="math inline">M</span> 和 <span class="math inline">m</span></p>
+<p><span class="math display">
+\left.\begin{array}{cc}
+\left.\begin{array}{c}
+F=m\omega^{2}r\\
+\omega=\frac{2\pi}{T}
+\end{array}\right\} \Rightarrow &amp; F=m\frac{4\pi^{2}}{T^{2}}r\\
+&amp; \frac{r^{3}}{T^{2}}=k
+\end{array}\right\} \Rightarrow F=4\pi^{2}k\frac{m}{r^{2}}
+</span></p>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p><span class="math display">
+\left.\begin{array}{c}
+F\propto\frac{m}{r^{2}}\\
+F'\propto\frac{M}{r^{2}}\\
+F=F'
+\end{array}\right\} \Rightarrow F\propto\frac{Mm}{r^{2}}
+</span></p>
+</div><div class="column" style="width:30%;">
+<p><img src="./assets/万有引力.png" class="img-fluid"></p>
+</div>
+</div>
+<p>万有引力公式：</p>
+</section>
+<section id="万有引力公式" class="level3">
+<h3 class="anchored" data-anchor-id="万有引力公式">万有引力公式</h3>
+<p><span class="math display">
+F=G\frac{Mm}{r^{2}}
+</span></p>
+</section>
+<section id="引力常量" class="level3">
+<h3 class="anchored" data-anchor-id="引力常量">引力常量</h3>
+<p>1798 年，<strong>卡文迪什</strong>利用扭称装置，第一次在实验室里比较准确的测出了引力常量 <span class="math inline">G</span> 的值。</p>
+</section>
+<section id="比例问题" class="level3">
+<h3 class="anchored" data-anchor-id="比例问题">比例问题</h3>
+<section id="例-1" class="level4">
+<h4 class="anchored" data-anchor-id="例-1">例 1</h4>
+<p>已知地球的质量为月球质量的 81 倍，地球半径约为月球半径的 4 倍。若在月球和地球表面同样高度处，以相同的初速度水平抛出物体，抛出点与落地点间的水平距离分别为 <span class="math inline">x_{月}</span> 和 <span class="math inline">x_{地}</span>，求 <span class="math inline">x_{月}</span> 和 <span class="math inline">x_{地}</span>？</p>
+<div class="callout callout-style-default callout-note callout-titled" title="比例问题解题步骤">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+比例问题解题步骤
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><p>列出待比较物理量的表达式；</p></li>
+<li><p>根据已知物理量的比例关系，写出待比较物理量的比例。</p></li>
+</ol>
+</div>
+</div>
+</section>
+<section id="例-2" class="level4">
+<h4 class="anchored" data-anchor-id="例-2">例 2</h4>
+<p>科学家对 X 星球探索过程中，发现 X 星球与地球的密度之比为 <span class="math inline">p</span>，X 星球与地球的半径之比为 <span class="math inline">q</span>，求 X 星球与地球表面的重力加速度之比？</p>
+<p><strong>解：</strong></p>
+<p><span class="math display">
+mg=G\frac{Mm}{R^{2}}\Rightarrow g=\frac{GM}{R^{2}}=\frac{4\pi}{3}G\rho R
+</span></p>
+<p>记 X 星球和地球表面的重力加速度分别为 <span class="math inline">g_{X}</span> 和 <span class="math inline">g_{0}</span>，</p>
+<p><span class="math display">
+\frac{g_{X}}{g_{0}}=\frac{\rho_{X}}{\rho_{0}}\frac{R_{X}}{R_{0}}=pq
+</span></p>
+</section>
+</section>
+</section>
+<section id="纬度对重力的影响考虑地球的自转" class="level2">
+<h2 class="anchored" data-anchor-id="纬度对重力的影响考虑地球的自转">纬度对重力的影响（考虑地球的自转）</h2>
+<section id="例-1-1" class="level4">
+<h4 class="anchored" data-anchor-id="例-1-1">例 1</h4>
+<p>用弹簧测力计分别在地球两极和赤道上测量一个物体的重力，物体的质量为 <span class="math inline">m</span>，在两极时弹簧测力计的读数为 <span class="math inline">F_{1}</span>，在地球赤道上时弹簧测力计的读数为 <span class="math inline">F_{2}</span>。已知地球半径为 <span class="math inline">R</span>，求地球自转的角速度。</p>
+<p><strong>解：</strong></p>
+<p><span class="math display">
+\begin{cases}
+G\frac{Mm}{R^{2}}=F_{1} \\
+G\frac{Mm}{R^{2}}-F_{2}=m\omega^{2}R
+\end{cases}
+\Rightarrow m\omega^{2}R=F_{1}-F_{2}\,\Rightarrow \omega=\sqrt{ \frac{F_{1}-F_{2}}{mR} }
+</span></p>
+</section>
+<section id="例-2-1" class="level4">
+<h4 class="anchored" data-anchor-id="例-2-1">例 2</h4>
+<p>假设地球可视为质量均匀分布的球体。已知地球表面重力加速度在两极的大小为 <span class="math inline">g_0</span>，在赤道的大小为 <span class="math inline">g</span>；地球自转的周期为 <span class="math inline">T</span>，引力常量为 <span class="math inline">G</span>。求地球的密度。</p>
+<p><strong>解：</strong></p>
+<p><span class="math display">
+\begin{cases}
+mg_{0}=G\frac{Mm}{R^{2}}=G\rho\frac{4\pi R^{3}}{3}\frac{m}{R^{2}}=G\rho \frac{4\pi}{3}mR \\
+mg_{0}-mg=m \frac{4\pi^{2}}{T^{2}}R
+\end{cases}
+\Rightarrow\frac{g_{0}}{g_{0}-g}=\frac{G\rho T^{2}}{3\pi}
+</span></p>
+<p><span class="math display">
+\Rightarrow \rho=\frac{3\pi g_{0}}{(g-g_{0})GT^{2}}
+</span></p>
+</section>
+</section>
+<section id="均匀球壳的万有引力" class="level2">
+<h2 class="anchored" data-anchor-id="均匀球壳的万有引力">均匀球壳的万有引力</h2>
+<ol type="1">
+<li>均匀球壳内部的质点受到球壳各部分的万有引力的合力为零。</li>
+<li>均匀球壳对外部的质点（可视为球壳质量集中于球心）：<span class="math inline">F=G\frac{m_{1}m_{2}}{r^{2}}</span></li>
+</ol>
+<section id="例-1-2" class="level4">
+<h4 class="anchored" data-anchor-id="例-1-2">例 1</h4>
+<p>假设地球是一半径为 <span class="math inline">R</span>、质量分布均匀的球体。一矿井深度为 <span class="math inline">d</span>，已知质量分布均匀的球壳对壳内物体的引力为零。求矿井底部和地面处的重力加速度大小之比。</p>
+<p><span class="math display">
+F=G\frac{\rho \frac{4\pi}{3}r^{3}m}{r^{2}}\propto r
+</span></p>
+<p><span class="math display">
+\frac{g_{井底}}{g_{地表}}=\frac{F_{井底}}{F_{地表}}=\frac{R-d}{R}
+</span></p>
 
 
+</section>
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="动力学,圆周运动" data-listing-date-sort="1710000000000" data-listing-file-modified-sort="1710091498271" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="93">
-<div class="thumbnail">
-<p><a href="./posts/万有引力定律/万有引力_quarto.html" class="no-external"></a></p><a href="./posts/万有引力定律/万有引力_quarto.html" class="no-external">
-<p class="card-img-top"><img src="posts\万有引力定律\assets\万有引力.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/万有引力定律/万有引力_quarto.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/万有引力定律/万有引力_quarto.html" class="no-external">万有引力定律</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/万有引力定律/万有引力_quarto.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('动力学'); return false;">
-动力学
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('圆周运动'); return false;">
-圆周运动
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/万有引力定律/万有引力_quarto.html" class="no-external">太阳和行星的质量分别为 <span class="math inline">M</span> 和 <span class="math inline">m</span></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/万有引力定律/万有引力_quarto.html" class="no-external">
-<div class="listing-date">
-Mar 10, 2024
-</div>
-<div class="listing-author">
-黄轶凡
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="动力学,圆周运动" data-listing-date-sort="1709395200000" data-listing-file-modified-sort="1709486724401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="103">
-<div class="thumbnail">
-<p><a href="./posts/圆周运动习题课/圆周运动习题课_quarto.html" class="no-external"></a></p><a href="./posts/圆周运动习题课/圆周运动习题课_quarto.html" class="no-external">
-<p class="card-img-top"><img src="posts\圆周运动习题课\assets\圆周运动习题课.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/圆周运动习题课/圆周运动习题课_quarto.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/圆周运动习题课/圆周运动习题课_quarto.html" class="no-external">圆周运动习题课</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/圆周运动习题课/圆周运动习题课_quarto.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('动力学'); return false;">
-动力学
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('圆周运动'); return false;">
-圆周运动
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/圆周运动习题课/圆周运动习题课_quarto.html" class="no-external">如图，半径为 <span class="math inline">R</span> 的匀质实心圆盘。盘面与水平面的夹角为 <span class="math inline">\theta</span>，开始时圆盘静止。其上表面均匀覆盖着一层细沙没有掉落，细沙与盘面间的动摩擦因数为 <span class="math inline">\mu</span>，设最大静摩擦力等于滑动摩擦力。现让圆盘绕垂直于盘面的固定对称轴旋转，其角速度从 <span class="math inline">0</span> 开始缓慢增加到 <span class="math inline">\omega</span>（未知）。此时圆盘表面上的细沙有 <span class="math inline">\frac{8}{9}</span> 被甩掉，重力加速度为 <span class="math inline">…</span><span class="math inline"></span></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/圆周运动习题课/圆周运动习题课_quarto.html" class="no-external">
-<div class="listing-date">
-Mar 3, 2024
-</div>
-<div class="listing-author">
-黄轶凡
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="动力学,拓展知识" data-listing-date-sort="1709308800000" data-listing-file-modified-sort="1709357542000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
-<div class="thumbnail">
-<p><a href="./posts/非惯性参考系和惯性力/非惯性参考系和惯性力_quarto.html" class="no-external"></a></p><a href="./posts/非惯性参考系和惯性力/非惯性参考系和惯性力_quarto.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/非惯性参考系和惯性力/非惯性参考系和惯性力_quarto.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/非惯性参考系和惯性力/非惯性参考系和惯性力_quarto.html" class="no-external">非惯性系和惯性力</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/非惯性参考系和惯性力/非惯性参考系和惯性力_quarto.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('动力学'); return false;">
-动力学
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('拓展知识'); return false;">
-拓展知识
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/非惯性参考系和惯性力/非惯性参考系和惯性力_quarto.html" class="no-external">共点力平衡：</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/非惯性参考系和惯性力/非惯性参考系和惯性力_quarto.html" class="no-external">
-<div class="listing-date">
-Mar 2, 2024
-</div>
-<div class="listing-author">
-黄轶凡
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="动力学,圆周运动" data-listing-date-sort="1709222400000" data-listing-file-modified-sort="1709487177753" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
-<div class="thumbnail">
-<p><a href="./posts/生活中的圆周运动/生活中的圆周运动_quarto.html" class="no-external"></a></p><a href="./posts/生活中的圆周运动/生活中的圆周运动_quarto.html" class="no-external">
-<p class="card-img-top"><img src="posts\生活中的圆周运动\assets\生活中的圆周运动-9.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/生活中的圆周运动/生活中的圆周运动_quarto.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/生活中的圆周运动/生活中的圆周运动_quarto.html" class="no-external">生活中的圆周运动</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/生活中的圆周运动/生活中的圆周运动_quarto.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('动力学'); return false;">
-动力学
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('圆周运动'); return false;">
-圆周运动
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/生活中的圆周运动/生活中的圆周运动_quarto.html" class="no-external">2022年我国航天员在空间站太空舱开设“天宫课堂”，课堂演示了“水油分离”实验。如图所示，用细绳系住装有水和油的瓶子，手持细绳的另一端，使瓶子在竖直平面内做圆周运动，问水油分离后，哪种液体在外侧？（水的密度比油大）</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/生活中的圆周运动/生活中的圆周运动_quarto.html" class="no-external">
-<div class="listing-date">
-Mar 1, 2024
-</div>
-<div class="listing-author">
-黄轶凡
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="动力学,圆周运动" data-listing-date-sort="1709136000000" data-listing-file-modified-sort="1709224011090" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="134">
-<div class="thumbnail">
-<p><a href="./posts/向心力/向心力_quarto.html" class="no-external"></a></p><a href="./posts/向心力/向心力_quarto.html" class="no-external">
-<p class="card-img-top"><img src="posts\向心力\assets\向心力.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/向心力/向心力_quarto.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/向心力/向心力_quarto.html" class="no-external">向心力</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/向心力/向心力_quarto.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('动力学'); return false;">
-动力学
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('圆周运动'); return false;">
-圆周运动
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/向心力/向心力_quarto.html" class="no-external">向心力是效果力，“物体受到向心力的作用”这种表述是不合适的，应改成“物体的向心力由某某力提供”；</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/向心力/向心力_quarto.html" class="no-external">
-<div class="listing-date">
-Feb 29, 2024
-</div>
-<div class="listing-author">
-黄轶凡
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="动力学,圆周运动" data-listing-date-sort="1709136000000" data-listing-file-modified-sort="1709224636927" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
-<div class="thumbnail">
-<p><a href="./posts/向心加速度/向心加速度_quarto.html" class="no-external"></a></p><a href="./posts/向心加速度/向心加速度_quarto.html" class="no-external">
-<p class="card-img-top"><img src="posts\向心加速度\assets\向心加速度.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/向心加速度/向心加速度_quarto.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/向心加速度/向心加速度_quarto.html" class="no-external">向心加速度</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/向心加速度/向心加速度_quarto.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('动力学'); return false;">
-动力学
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('圆周运动'); return false;">
-圆周运动
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/向心加速度/向心加速度_quarto.html" class="no-external">如图所示，轮 <span class="math inline">O_1</span>、<span class="math inline">O_3</span> 固定在同一转轴上，轮 <span class="math inline">O_1</span>、<span class="math inline">O_2</span> 用皮带连接且不打滑。在 <span class="math inline">O_1</span>、<span class="math inline">O_2</span>、<span class="math inline">O_3</span> 三个轮的边缘各取一点 <span class="math inline">A</span>、<span class="math inline">B</span>、<span class="math inline">C</span>，已知三个轮的半径之比 <span class="math inline">r_1∶r_2∶r_3=2∶1∶1</span>，写出 <span class="math inline">A</span>、<span class="math inline">B</span>、<span class="math inline">C</span> 三点的线速度、角速度、向心加速度之比。</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/向心加速度/向心加速度_quarto.html" class="no-external">
-<div class="listing-date">
-Feb 29, 2024
-</div>
-<div class="listing-author">
-黄轶凡
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="动力学,拓展知识" data-listing-date-sort="1709136000000" data-listing-file-modified-sort="1709357733000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
-<div class="thumbnail">
-<p><a href="./posts/质点系牛二/质点系牛二_quarto.html" class="no-external"></a></p><a href="./posts/质点系牛二/质点系牛二_quarto.html" class="no-external">
-<p class="card-img-top"><img src="posts\质点系牛二\assets\质点系牛二.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/质点系牛二/质点系牛二_quarto.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/质点系牛二/质点系牛二_quarto.html" class="no-external">质点系牛二</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/质点系牛二/质点系牛二_quarto.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('动力学'); return false;">
-动力学
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('拓展知识'); return false;">
-拓展知识
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/质点系牛二/质点系牛二_quarto.html" class="no-external">表述：质点系的合外力等于各个质点的质量与加速度的乘积的矢量和</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/质点系牛二/质点系牛二_quarto.html" class="no-external">
-<div class="listing-date">
-Feb 29, 2024
-</div>
-<div class="listing-author">
-黄轶凡
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
