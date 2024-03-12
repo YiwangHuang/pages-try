@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "LovePhysics",
     "section": "",
-    "text": "万有引力定律\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nMar 10, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n圆周运动习题课\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nMar 3, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n非惯性系和惯性力\n\n\n\n\n\n\n动力学\n\n\n拓展知识\n\n\n\n\n\n\n\n\n\nMar 2, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n生活中的圆周运动\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nMar 1, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n向心力\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nFeb 29, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n向心加速度\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nFeb 29, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n质点系牛二\n\n\n\n\n\n\n动力学\n\n\n拓展知识\n\n\n\n\n\n\n\n\n\nFeb 29, 2024\n\n\n黄轶凡\n\n\n\n\n\n\nNo matching items"
+    "text": "宇宙航行\n\n\n\n\n\n\n动力学\n\n\n天体运动\n\n\n\n\n\n\n\n\n\nMar 12, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n万有引力定律\n\n\n\n\n\n\n动力学\n\n\n天体运动\n\n\n\n\n\n\n\n\n\nMar 10, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n圆周运动习题课\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nMar 3, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n非惯性系和惯性力\n\n\n\n\n\n\n动力学\n\n\n拓展知识\n\n\n\n\n\n\n\n\n\nMar 2, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n生活中的圆周运动\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nMar 1, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n向心力\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nFeb 29, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n向心加速度\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nFeb 29, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n质点系牛二\n\n\n\n\n\n\n动力学\n\n\n拓展知识\n\n\n\n\n\n\n\n\n\nFeb 29, 2024\n\n\n黄轶凡\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -257,5 +257,40 @@
     "title": "万有引力定律",
     "section": "均匀球壳的万有引力",
     "text": "均匀球壳的万有引力\n\n均匀球壳内部的质点受到球壳各部分的万有引力的合力为零。\n均匀球壳对外部的质点（可视为球壳质量集中于球心）：F=G\\frac{m_{1}m_{2}}{r^{2}}\n\n\n例 1\n假设地球是一半径为 R、质量分布均匀的球体。一矿井深度为 d，已知质量分布均匀的球壳对壳内物体的引力为零。求矿井底部和地面处的重力加速度大小之比。\n\nF=G\\frac{\\rho \\frac{4\\pi}{3}r^{3}m}{r^{2}}\\propto r\n\n\n\\frac{g_{井底}}{g_{地表}}=\\frac{F_{井底}}{F_{地表}}=\\frac{R-d}{R}"
+  },
+  {
+    "objectID": "posts/宇宙航行/宇宙航行_quarto.html",
+    "href": "posts/宇宙航行/宇宙航行_quarto.html",
+    "title": "宇宙航行",
+    "section": "",
+    "text": "意义：地球卫星在地面附近绕地球做匀速圆周运动的速度，既是最小发射速度，也是最大环绕速度。\n大小：7.9\\;\\text{km/h}\n计算方法：\n\nG\\frac{Mm}{R^{2}}=m\\frac{v^{2}}{R}\\Rightarrow v=\\sqrt{\\frac{GM}{R}}\nmg=m\\frac{v^{2}}{R}\\Rightarrow v=\\sqrt{ gR }\n\n\n\n\n我国“天问一号”火星探测器成功实现环绕火星运行，并着陆火星。火星的半径是地球的 n 倍，火星的质量为地球的 k 倍，不考虑行星自转的影响，求：(1) 火星表面的重力加速度是地球的几倍？(2) 火星的第一宇宙速度是地球的几倍？\n\n\n\n\n\n意义：物体挣脱地球引力束缚的最小发射速度\n大小：11.2\\; \\text{km/h}\n\n\n\n\n\n意义：物体挣脱太阳引力束缚的最小发射速度\n大小：16.7\\; \\text{km/h}"
+  },
+  {
+    "objectID": "posts/宇宙航行/宇宙航行_quarto.html#三个宇宙速度",
+    "href": "posts/宇宙航行/宇宙航行_quarto.html#三个宇宙速度",
+    "title": "宇宙航行",
+    "section": "",
+    "text": "意义：地球卫星在地面附近绕地球做匀速圆周运动的速度，既是最小发射速度，也是最大环绕速度。\n大小：7.9\\;\\text{km/h}\n计算方法：\n\nG\\frac{Mm}{R^{2}}=m\\frac{v^{2}}{R}\\Rightarrow v=\\sqrt{\\frac{GM}{R}}\nmg=m\\frac{v^{2}}{R}\\Rightarrow v=\\sqrt{ gR }\n\n\n\n\n我国“天问一号”火星探测器成功实现环绕火星运行，并着陆火星。火星的半径是地球的 n 倍，火星的质量为地球的 k 倍，不考虑行星自转的影响，求：(1) 火星表面的重力加速度是地球的几倍？(2) 火星的第一宇宙速度是地球的几倍？\n\n\n\n\n\n意义：物体挣脱地球引力束缚的最小发射速度\n大小：11.2\\; \\text{km/h}\n\n\n\n\n\n意义：物体挣脱太阳引力束缚的最小发射速度\n大小：16.7\\; \\text{km/h}"
+  },
+  {
+    "objectID": "posts/宇宙航行/宇宙航行_quarto.html#人造地球卫星",
+    "href": "posts/宇宙航行/宇宙航行_quarto.html#人造地球卫星",
+    "title": "宇宙航行",
+    "section": "人造地球卫星",
+    "text": "人造地球卫星\n\n近地卫星和同步卫星\n\n近地卫星：r\\approx R\n地球同步卫星：T = 1\\; \\text{day}\n\n\n\n四个重要物理量\n\nG\\frac{Mm}{r^{2}}=\n\\begin{cases}\nm\\frac{v^{2}}{r} & \\Rightarrow v=\\sqrt{\\frac{GM}{r}}\\\\\nm\\omega^{2}r & \\Rightarrow\\omega=\\sqrt{\\frac{GM}{r^{3}}}\\\\\nm\\left(\\frac{2\\pi}{T}\\right)^{2}r & \\Rightarrow T=2\\pi\\sqrt{\\frac{r^{3}}{GM}}\\\\\nma & \\Rightarrow a=\\frac{GM}{r^{2}}\n\\end{cases}\n\n可见： r 越大，v 、\\omega、a_{n} 越小，T 越大。可记为高轨低速大周期\n\n\n\n\n\n\n近地轨道与最大环绕速度\n\n\n\n轨道半径 r 最小时，线速度 v 最大，飞行器在近地轨道上达到最大环绕速度\n\n\n\n例\n\n\n地球赤道上的山丘 e，近地资源卫星 p 和同步通信卫星 q 均在赤道平面上绕地心做匀速圆周运动．设 e、p、q 做圆周运动的速率分别为 v_1、v_2、v_3，向心加速度大小分别为 a_1、a_2、a_3，角速度分别为 \\omega_{1}、\\omega_{2}、\\omega_{3}，周期分别为 T_1、T_2、T_3，写出 e、p、q 的各物理量的大小关系。\n\n\n\n\n\n\n\n\n\n\n注意\n\n\n\n\n口诀“高轨低速大周期”仅适用于“天上的物体”（向心力由万有引力提供）\n涉及“地上的物体”，要以同步卫星作为跳板进行比较\n完整的口诀：高轨低速大周期，同步卫星看地面"
+  },
+  {
+    "objectID": "posts/宇宙航行/宇宙航行_quarto.html#天体的追及相遇",
+    "href": "posts/宇宙航行/宇宙航行_quarto.html#天体的追及相遇",
+    "title": "宇宙航行",
+    "section": "天体的追及相遇",
+    "text": "天体的追及相遇\n\n角速度与角度关系：(\\omega_{A}\\pm\\omega_{B})t=\\Delta \\theta\n周期与圈数关系：\\frac{t}{T_{A}}\\pm\\frac{t}{T_{B}}=\\Delta n\n\n\n例\n如图，有 A、B 两颗行星绕同一恒星 O 做圆周运动，运行方向相反。A 行星的周期为 T_{A}，B 行星的周期为 T_{B}，在某一时刻两行星相距最近，分别求两行星运动到相距最近和最远所需的时间间隔。"
+  },
+  {
+    "objectID": "posts/宇宙航行/宇宙航行_quarto.html#卫星变轨",
+    "href": "posts/宇宙航行/宇宙航行_quarto.html#卫星变轨",
+    "title": "宇宙航行",
+    "section": "卫星变轨",
+    "text": "卫星变轨"
   }
 ]
