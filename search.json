@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "LovePhysics",
     "section": "",
-    "text": "宇宙航行\n\n\n\n\n\n\n动力学\n\n\n天体运动\n\n\n\n\n\n\n\n\n\nMar 12, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n万有引力定律\n\n\n\n\n\n\n动力学\n\n\n天体运动\n\n\n\n\n\n\n\n\n\nMar 10, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n圆周运动习题课\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nMar 3, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n非惯性系和惯性力\n\n\n\n\n\n\n动力学\n\n\n拓展知识\n\n\n\n\n\n\n\n\n\nMar 2, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n生活中的圆周运动\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nMar 1, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n向心力\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nFeb 29, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n向心加速度\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nFeb 29, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n质点系牛二\n\n\n\n\n\n\n动力学\n\n\n拓展知识\n\n\n\n\n\n\n\n\n\nFeb 29, 2024\n\n\n黄轶凡\n\n\n\n\n\n\nNo matching items"
+    "text": "万有引力定律\n\n\n\n\n\n\n动力学\n\n\n天体运动\n\n\n\n\n\n\n\n\n\nMar 12, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n宇宙航行\n\n\n\n\n\n\n动力学\n\n\n天体运动\n\n\n\n\n\n\n\n\n\nMar 12, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n圆周运动习题课\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nMar 3, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n非惯性系和惯性力\n\n\n\n\n\n\n动力学\n\n\n拓展知识\n\n\n\n\n\n\n\n\n\nMar 2, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n生活中的圆周运动\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nMar 1, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n向心力\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nFeb 29, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n向心加速度\n\n\n\n\n\n\n动力学\n\n\n圆周运动\n\n\n\n\n\n\n\n\n\nFeb 29, 2024\n\n\n黄轶凡\n\n\n\n\n\n\n\n\n\n\n\n\n质点系牛二\n\n\n\n\n\n\n动力学\n\n\n拓展知识\n\n\n\n\n\n\n\n\n\nFeb 29, 2024\n\n\n黄轶凡\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -235,7 +235,7 @@
     "href": "posts/万有引力定律/万有引力_quarto.html",
     "title": "万有引力定律",
     "section": "",
-    "text": "太阳和行星的质量分别为 M 和 m\n\n\\left.\\begin{array}{cc}\n\\left.\\begin{array}{c}\nF=m\\omega^{2}r\\\\\n\\omega=\\frac{2\\pi}{T}\n\\end{array}\\right\\} \\Rightarrow & F=m\\frac{4\\pi^{2}}{T^{2}}r\\\\\n& \\frac{r^{3}}{T^{2}}=k\n\\end{array}\\right\\} \\Rightarrow F=4\\pi^{2}k\\frac{m}{r^{2}}\n\n\n\n\n\\left.\\begin{array}{c}\nF\\propto\\frac{m}{r^{2}}\\\\\nF'\\propto\\frac{M}{r^{2}}\\\\\nF=F'\n\\end{array}\\right\\} \\Rightarrow F\\propto\\frac{Mm}{r^{2}}\n\n\n\n\n\n万有引力公式：\n\n\n\n\nF=G\\frac{Mm}{r^{2}}\n\n\n\n\n1798 年，卡文迪什利用扭称装置，第一次在实验室里比较准确的测出了引力常量 G 的值。\n\n\n\n\n\n已知地球的质量为月球质量的 81 倍，地球半径约为月球半径的 4 倍。若在月球和地球表面同样高度处，以相同的初速度水平抛出物体，抛出点与落地点间的水平距离分别为 x_{月} 和 x_{地}，求 x_{月} 和 x_{地}？\n\n\n\n\n\n\n比例问题解题步骤\n\n\n\n\n列出待比较物理量的表达式；\n根据已知物理量的比例关系，写出待比较物理量的比例。\n\n\n\n\n\n\n科学家对 X 星球探索过程中，发现 X 星球与地球的密度之比为 p，X 星球与地球的半径之比为 q，求 X 星球与地球表面的重力加速度之比？\n解：\n\nmg=G\\frac{Mm}{R^{2}}\\Rightarrow g=\\frac{GM}{R^{2}}=\\frac{4\\pi}{3}G\\rho R\n\n记 X 星球和地球表面的重力加速度分别为 g_{X} 和 g_{0}，\n\n\\frac{g_{X}}{g_{0}}=\\frac{\\rho_{X}}{\\rho_{0}}\\frac{R_{X}}{R_{0}}=pq"
+    "text": "意义：地球卫星在地面附近绕地球做匀速圆周运动的速度，既是最小发射速度，也是最大环绕速度。\n大小：7.9\\;\\text{km/s}\n计算方法：\n\nG\\frac{Mm}{R^{2}}=m\\frac{v^{2}}{R}\\Rightarrow v=\\sqrt{\\frac{GM}{R}}\nmg=m\\frac{v^{2}}{R}\\Rightarrow v=\\sqrt{ gR }\n\n\n\n\n我国“天问一号”火星探测器成功实现环绕火星运行，并着陆火星。火星的半径是地球的 n 倍，火星的质量为地球的 k 倍，不考虑行星自转的影响，求：(1) 火星表面的重力加速度是地球的几倍？(2) 火星的第一宇宙速度是地球的几倍？\n\n\n\n\n\n意义：物体挣脱地球引力束缚的最小发射速度\n大小：11.2\\; \\text{km/s}\n\n\n\n\n\n意义：物体挣脱太阳引力束缚的最小发射速度\n大小：16.7\\; \\text{km/s}"
   },
   {
     "objectID": "posts/万有引力定律/万有引力_quarto.html#万有引力定律",
@@ -263,14 +263,14 @@
     "href": "posts/宇宙航行/宇宙航行_quarto.html",
     "title": "宇宙航行",
     "section": "",
-    "text": "意义：地球卫星在地面附近绕地球做匀速圆周运动的速度，既是最小发射速度，也是最大环绕速度。\n大小：7.9\\;\\text{km/h}\n计算方法：\n\nG\\frac{Mm}{R^{2}}=m\\frac{v^{2}}{R}\\Rightarrow v=\\sqrt{\\frac{GM}{R}}\nmg=m\\frac{v^{2}}{R}\\Rightarrow v=\\sqrt{ gR }\n\n\n\n\n我国“天问一号”火星探测器成功实现环绕火星运行，并着陆火星。火星的半径是地球的 n 倍，火星的质量为地球的 k 倍，不考虑行星自转的影响，求：(1) 火星表面的重力加速度是地球的几倍？(2) 火星的第一宇宙速度是地球的几倍？\n\n\n\n\n\n意义：物体挣脱地球引力束缚的最小发射速度\n大小：11.2\\; \\text{km/h}\n\n\n\n\n\n意义：物体挣脱太阳引力束缚的最小发射速度\n大小：16.7\\; \\text{km/h}"
+    "text": "意义：地球卫星在地面附近绕地球做匀速圆周运动的速度，既是最小发射速度，也是最大环绕速度。\n大小：7.9\\;\\text{km/s}\n计算方法：\n\nG\\frac{Mm}{R^{2}}=m\\frac{v^{2}}{R}\\Rightarrow v=\\sqrt{\\frac{GM}{R}}\nmg=m\\frac{v^{2}}{R}\\Rightarrow v=\\sqrt{ gR }\n\n\n\n\n我国“天问一号”火星探测器成功实现环绕火星运行，并着陆火星。火星的半径是地球的 n 倍，火星的质量为地球的 k 倍，不考虑行星自转的影响，求：(1) 火星表面的重力加速度是地球的几倍？(2) 火星的第一宇宙速度是地球的几倍？\n\n\n\n\n\n意义：物体挣脱地球引力束缚的最小发射速度\n大小：11.2\\; \\text{km/s}\n\n\n\n\n\n意义：物体挣脱太阳引力束缚的最小发射速度\n大小：16.7\\; \\text{km/s}"
   },
   {
     "objectID": "posts/宇宙航行/宇宙航行_quarto.html#三个宇宙速度",
     "href": "posts/宇宙航行/宇宙航行_quarto.html#三个宇宙速度",
     "title": "宇宙航行",
     "section": "",
-    "text": "意义：地球卫星在地面附近绕地球做匀速圆周运动的速度，既是最小发射速度，也是最大环绕速度。\n大小：7.9\\;\\text{km/h}\n计算方法：\n\nG\\frac{Mm}{R^{2}}=m\\frac{v^{2}}{R}\\Rightarrow v=\\sqrt{\\frac{GM}{R}}\nmg=m\\frac{v^{2}}{R}\\Rightarrow v=\\sqrt{ gR }\n\n\n\n\n我国“天问一号”火星探测器成功实现环绕火星运行，并着陆火星。火星的半径是地球的 n 倍，火星的质量为地球的 k 倍，不考虑行星自转的影响，求：(1) 火星表面的重力加速度是地球的几倍？(2) 火星的第一宇宙速度是地球的几倍？\n\n\n\n\n\n意义：物体挣脱地球引力束缚的最小发射速度\n大小：11.2\\; \\text{km/h}\n\n\n\n\n\n意义：物体挣脱太阳引力束缚的最小发射速度\n大小：16.7\\; \\text{km/h}"
+    "text": "意义：地球卫星在地面附近绕地球做匀速圆周运动的速度，既是最小发射速度，也是最大环绕速度。\n大小：7.9\\;\\text{km/s}\n计算方法：\n\nG\\frac{Mm}{R^{2}}=m\\frac{v^{2}}{R}\\Rightarrow v=\\sqrt{\\frac{GM}{R}}\nmg=m\\frac{v^{2}}{R}\\Rightarrow v=\\sqrt{ gR }\n\n\n\n\n我国“天问一号”火星探测器成功实现环绕火星运行，并着陆火星。火星的半径是地球的 n 倍，火星的质量为地球的 k 倍，不考虑行星自转的影响，求：(1) 火星表面的重力加速度是地球的几倍？(2) 火星的第一宇宙速度是地球的几倍？\n\n\n\n\n\n意义：物体挣脱地球引力束缚的最小发射速度\n大小：11.2\\; \\text{km/s}\n\n\n\n\n\n意义：物体挣脱太阳引力束缚的最小发射速度\n大小：16.7\\; \\text{km/s}"
   },
   {
     "objectID": "posts/宇宙航行/宇宙航行_quarto.html#人造地球卫星",
@@ -291,6 +291,48 @@
     "href": "posts/宇宙航行/宇宙航行_quarto.html#卫星变轨",
     "title": "宇宙航行",
     "section": "卫星变轨",
-    "text": "卫星变轨"
+    "text": "卫星变轨\n\n3D 变轨演示\n\n\n\n\n2D 变轨演示\n\n\n\n例\n\n\n已知地球半径为 R，地球表面的重力加速度为 g_0，飞船在绕地球的圆形轨道Ⅰ上运动，A 点距地球表面的高度为地球半径的 3 倍，飞船到达轨道 \\mathrm{I} 的 A 点时点火变轨进入椭圆轨道 \\mathrm{II}，到达轨道的近地点 B 时再次点火进入近地轨道 \\mathrm{I I I} 绕地球做圆周运动。已知引力常量 G，把地球看做质量分布均匀的球体，求：\n\n\n\n\n\n两次点火分别是加速还是减速，向前点火喷射还是向后点火喷射；\n飞船在轨道 \\mathrm{I} 上的运行速率；\n飞船在轨道 \\mathrm{I I I} 上绕地运行一周所需的时间；\n飞船在轨道 \\mathrm{II} 上第一次从 A 到 B 的时间；\n若飞船在轨道 \\mathrm{I I} 上经过 A 点的速度大小为 v，求在轨道 \\mathrm{I I} 上经过 B 点的速度大小；\n比较 T_{\\mathrm{I}}、T_{\\mathrm{I I}}、T_{\\mathrm{I I I}} 的大小关系；\n比较 v_{\\mathrm{I}A}、v_{\\mathrm{I I}A}、v_{\\mathrm{I I}B}、v_{\\mathrm{I I I}B} 的大小关系；\n比较 v_{\\mathrm{I}A} 与 v_{\\mathrm{I I}A}；v_{\\mathrm{I I}B} 与 v_{\\mathrm{I I I}B} 的大小关系。"
+  },
+  {
+    "objectID": "posts/万有引力定律/万有引力_quarto.html#三个宇宙速度",
+    "href": "posts/万有引力定律/万有引力_quarto.html#三个宇宙速度",
+    "title": "万有引力定律",
+    "section": "",
+    "text": "意义：地球卫星在地面附近绕地球做匀速圆周运动的速度，既是最小发射速度，也是最大环绕速度。\n大小：7.9\\;\\text{km/s}\n计算方法：\n\nG\\frac{Mm}{R^{2}}=m\\frac{v^{2}}{R}\\Rightarrow v=\\sqrt{\\frac{GM}{R}}\nmg=m\\frac{v^{2}}{R}\\Rightarrow v=\\sqrt{ gR }\n\n\n\n\n我国“天问一号”火星探测器成功实现环绕火星运行，并着陆火星。火星的半径是地球的 n 倍，火星的质量为地球的 k 倍，不考虑行星自转的影响，求：(1) 火星表面的重力加速度是地球的几倍？(2) 火星的第一宇宙速度是地球的几倍？\n\n\n\n\n\n意义：物体挣脱地球引力束缚的最小发射速度\n大小：11.2\\; \\text{km/s}\n\n\n\n\n\n意义：物体挣脱太阳引力束缚的最小发射速度\n大小：16.7\\; \\text{km/s}"
+  },
+  {
+    "objectID": "posts/万有引力定律/万有引力_quarto.html#人造地球卫星",
+    "href": "posts/万有引力定律/万有引力_quarto.html#人造地球卫星",
+    "title": "万有引力定律",
+    "section": "人造地球卫星",
+    "text": "人造地球卫星\n\n近地卫星和同步卫星\n\n近地卫星：r\\approx R\n地球同步卫星：T = 1\\; \\text{day}\n\n\n\n四个重要物理量\n\nG\\frac{Mm}{r^{2}}=\n\\begin{cases}\nm\\frac{v^{2}}{r} & \\Rightarrow v=\\sqrt{\\frac{GM}{r}}\\\\\nm\\omega^{2}r & \\Rightarrow\\omega=\\sqrt{\\frac{GM}{r^{3}}}\\\\\nm\\left(\\frac{2\\pi}{T}\\right)^{2}r & \\Rightarrow T=2\\pi\\sqrt{\\frac{r^{3}}{GM}}\\\\\nma & \\Rightarrow a=\\frac{GM}{r^{2}}\n\\end{cases}\n\n可见： r 越大，v 、\\omega、a_{n} 越小，T 越大。可记为高轨低速大周期\n\n\n\n\n\n\n近地轨道与最大环绕速度\n\n\n\n轨道半径 r 最小时，线速度 v 最大，飞行器在近地轨道上达到最大环绕速度\n\n\n\n例\n\n\n地球赤道上的山丘 e，近地资源卫星 p 和同步通信卫星 q 均在赤道平面上绕地心做匀速圆周运动．设 e、p、q 做圆周运动的速率分别为 v_1、v_2、v_3，向心加速度大小分别为 a_1、a_2、a_3，角速度分别为 \\omega_{1}、\\omega_{2}、\\omega_{3}，周期分别为 T_1、T_2、T_3，写出 e、p、q 的各物理量的大小关系。\n\n\n\n\n\n\n\n\n\n\n注意\n\n\n\n\n口诀“高轨低速大周期”仅适用于“天上的物体”（向心力由万有引力提供）\n涉及“地上的物体”，要以同步卫星作为跳板进行比较\n完整的口诀：高轨低速大周期，同步卫星看地面"
+  },
+  {
+    "objectID": "posts/万有引力定律/万有引力_quarto.html#天体的追及相遇",
+    "href": "posts/万有引力定律/万有引力_quarto.html#天体的追及相遇",
+    "title": "万有引力定律",
+    "section": "天体的追及相遇",
+    "text": "天体的追及相遇\n\n角速度与角度关系：(\\omega_{A}\\pm\\omega_{B})t=\\Delta \\theta\n周期与圈数关系：\\frac{t}{T_{A}}\\pm\\frac{t}{T_{B}}=\\Delta n\n\n\n例\n如图，有 A、B 两颗行星绕同一恒星 O 做圆周运动，运行方向相反。A 行星的周期为 T_{A}，B 行星的周期为 T_{B}，在某一时刻两行星相距最近，分别求两行星运动到相距最近和最远所需的时间间隔。"
+  },
+  {
+    "objectID": "posts/万有引力定律/万有引力_quarto.html#卫星变轨",
+    "href": "posts/万有引力定律/万有引力_quarto.html#卫星变轨",
+    "title": "万有引力定律",
+    "section": "卫星变轨",
+    "text": "卫星变轨\n\n3D 变轨演示\n\n\n\n\n2D 变轨演示\n\n\n\n例\n\n\n已知地球半径为 R，地球表面的重力加速度为 g_0，飞船在绕地球的圆形轨道Ⅰ上运动，A 点距地球表面的高度为地球半径的 3 倍，飞船到达轨道 \\mathrm{I} 的 A 点时点火变轨进入椭圆轨道 \\mathrm{II}，到达轨道的近地点 B 时再次点火进入近地轨道 \\mathrm{I I I} 绕地球做圆周运动。已知引力常量 G，把地球看做质量分布均匀的球体，求：\n\n\n\n\n\n两次点火分别是加速还是减速，向前点火喷射还是向后点火喷射；\n飞船在轨道 \\mathrm{I} 上的运行速率；\n飞船在轨道 \\mathrm{I I I} 上绕地运行一周所需的时间；\n飞船在轨道 \\mathrm{II} 上第一次从 A 到 B 的时间；\n若飞船在轨道 \\mathrm{I I} 上经过 A 点的速度大小为 v，求在轨道 \\mathrm{I I} 上经过 B 点的速度大小；\n比较 T_{\\mathrm{I}}、T_{\\mathrm{I I}}、T_{\\mathrm{I I I}} 的大小关系；\n比较 v_{\\mathrm{I}A}、v_{\\mathrm{I I}A}、v_{\\mathrm{I I}B}、v_{\\mathrm{I I I}B} 的大小关系；\n比较 v_{\\mathrm{I}A} 与 v_{\\mathrm{I I}A}；v_{\\mathrm{I I}B} 与 v_{\\mathrm{I I I}B} 的大小关系。"
+  },
+  {
+    "objectID": "posts/万有引力定律/万有引力_quarto.html#双星多星问题",
+    "href": "posts/万有引力定律/万有引力_quarto.html#双星多星问题",
+    "title": "万有引力定律",
+    "section": "双星/多星问题",
+    "text": "双星/多星问题\n\n\n\n相等关系\n\n距离不变，F_{n} 相等\n同轴转动，\\omega,T 相等\n\n\n\n\n\n\n\n易错点\n\n\n\n双星系统圆周运动的圆心在双星连线上一点，因此轨道半径 r 不等于双星间的距离 L。\n\n\n\n\n结论\n\n\\begin{cases}\nG\\frac{m_{1}m_{2}}{L^{2}}=m_{1}\\omega^{2}r_{1} \\\\\nG\\frac{m_{1}m_{2}}{L^{2}}=m_{2}\\omega^{2}r_{2}\n\\end{cases}\n\\Rightarrow \\frac{m_{2}}{m_{1}}=\\frac{r_{1}}{r_{2}}\n\n又因为 v=\\omega r 和 a=\\omega^{2}r，得\n\n\\frac{m_{2}}{m_{1}}=\\frac{r_{1}}{r_{2}}=\\frac{v_{1}}{v_{2}}=\\frac{a_{1}}{a_{2}}\n\n\n例\n\n\n宇宙中两个相距较近的天体称为“双星”，它们以两者连线上的某一点为圆心做匀速圆周运动，但两者不会因万有引力的作用而吸引到一起。设两者的质量分别为 m_{1} 和 m_{2}，两者相距 为 L。求： (1)双星的轨道半径之比； (2)双星的线速度之比； (3)双星的角速度。\n\n\n\n\n\n\n\n拉格朗日点\n定义： 拉格朗日点（Lagrangian point）又称平动点（libration points）在天体力学中是限制性三体问题的五个特殊解（particular solution）\n\n\n![[宇宙航行-1.gif|三体运动]]\n\n![[宇宙航行.gif|拉格朗日点]]\n\n\n\n例\n\n\n如图，拉格朗日点 L_1 位于地球和月球连线上，处在该点的物体在地球和月球引力的共同作用下，可与月球一起以相同的周期绕地球运动。据此，科学家设想在拉格朗日点 L_{1} 建立空间站，使其与月球同周期绕地球运动。以 a_{1}、a_{2} 分别表示该空间站和月球向心加速度的大小，a_{3} 表示地球同步卫星向心加速度的大小。比较 a_{1},a_{2},a_{3} 的大小。"
+  },
+  {
+    "objectID": "posts/宇宙航行/宇宙航行_quarto.html#双星多星问题",
+    "href": "posts/宇宙航行/宇宙航行_quarto.html#双星多星问题",
+    "title": "宇宙航行",
+    "section": "双星/多星问题",
+    "text": "双星/多星问题\n\n\n\n相等关系\n\n距离不变，F_{n} 相等\n同轴转动，\\omega,T 相等\n\n\n\n\n\n\n\n易错点\n\n\n\n双星系统圆周运动的圆心在双星连线上一点，因此轨道半径 r 不等于双星间的距离 L。\n\n\n\n\n结论\n\n\\begin{cases}\nG\\frac{m_{1}m_{2}}{L^{2}}=m_{1}\\omega^{2}r_{1} \\\\\nG\\frac{m_{1}m_{2}}{L^{2}}=m_{2}\\omega^{2}r_{2}\n\\end{cases}\n\\Rightarrow \\frac{m_{2}}{m_{1}}=\\frac{r_{1}}{r_{2}}\n\n又因为 v=\\omega r 和 a=\\omega^{2}r，得\n\n\\frac{m_{2}}{m_{1}}=\\frac{r_{1}}{r_{2}}=\\frac{v_{1}}{v_{2}}=\\frac{a_{1}}{a_{2}}\n\n\n例\n\n\n宇宙中两个相距较近的天体称为“双星”，它们以两者连线上的某一点为圆心做匀速圆周运动，但两者不会因万有引力的作用而吸引到一起。设两者的质量分别为 m_{1} 和 m_{2}，两者相距 为 L。求： (1)双星的轨道半径之比； (2)双星的线速度之比； (3)双星的角速度。\n\n\n\n\n\n\n\n拉格朗日点\n定义： 拉格朗日点（Lagrangian point）又称平动点（libration points）在天体力学中是限制性三体问题的五个特殊解（particular solution）\n\n\n\n\n\n三体运动\n\n\n\n\n\n\n拉格朗日点\n\n\n\n\n\n例\n\n\n如图，拉格朗日点 L_1 位于地球和月球连线上，处在该点的物体在地球和月球引力的共同作用下，可与月球一起以相同的周期绕地球运动。据此，科学家设想在拉格朗日点 L_{1} 建立空间站，使其与月球同周期绕地球运动。以 a_{1}、a_{2} 分别表示该空间站和月球向心加速度的大小，a_{3} 表示地球同步卫星向心加速度的大小。比较 a_{1},a_{2},a_{3} 的大小。"
   }
 ]

@@ -207,7 +207,17 @@ window.Quarto = {
   <li><a href="#四个重要物理量" id="toc-四个重要物理量" class="nav-link" data-scroll-target="#四个重要物理量">四个重要物理量</a></li>
   </ul></li>
   <li><a href="#天体的追及相遇" id="toc-天体的追及相遇" class="nav-link" data-scroll-target="#天体的追及相遇">天体的追及相遇</a></li>
-  <li><a href="#卫星变轨" id="toc-卫星变轨" class="nav-link" data-scroll-target="#卫星变轨">卫星变轨</a></li>
+  <li><a href="#卫星变轨" id="toc-卫星变轨" class="nav-link" data-scroll-target="#卫星变轨">卫星变轨</a>
+  <ul class="collapse">
+  <li><a href="#d-变轨演示" id="toc-d-变轨演示" class="nav-link" data-scroll-target="#d-变轨演示">3D 变轨演示</a></li>
+  <li><a href="#d-变轨演示-1" id="toc-d-变轨演示-1" class="nav-link" data-scroll-target="#d-变轨演示-1">2D 变轨演示</a></li>
+  </ul></li>
+  <li><a href="#双星多星问题" id="toc-双星多星问题" class="nav-link" data-scroll-target="#双星多星问题">双星/多星问题</a>
+  <ul class="collapse">
+  <li><a href="#相等关系" id="toc-相等关系" class="nav-link" data-scroll-target="#相等关系">相等关系</a></li>
+  <li><a href="#结论" id="toc-结论" class="nav-link" data-scroll-target="#结论">结论</a></li>
+  <li><a href="#拉格朗日点" id="toc-拉格朗日点" class="nav-link" data-scroll-target="#拉格朗日点">拉格朗日点</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -224,7 +234,7 @@ window.Quarto = {
 <h3 class="anchored" data-anchor-id="第一宇宙速度">第一宇宙速度</h3>
 <ol type="1">
 <li>意义：地球卫星在地面附近绕地球做匀速圆周运动的速度，既是<strong>最小发射速度</strong>，也是<strong>最大环绕速度</strong>。</li>
-<li>大小：<span class="math inline">7.9\;\text{km/h}</span></li>
+<li>大小：<span class="math inline">7.9\;\text{km/s}</span></li>
 <li>计算方法：
 <ul>
 <li><span class="math inline">G\frac{Mm}{R^{2}}=m\frac{v^{2}}{R}\Rightarrow v=\sqrt{\frac{GM}{R}}</span></li>
@@ -240,14 +250,14 @@ window.Quarto = {
 <h3 class="anchored" data-anchor-id="第二宇宙速度">第二宇宙速度</h3>
 <ol type="1">
 <li>意义：物体<strong>挣脱地球引力束缚</strong>的最小发射速度</li>
-<li>大小：<span class="math inline">11.2\; \text{km/h}</span></li>
+<li>大小：<span class="math inline">11.2\; \text{km/s}</span></li>
 </ol>
 </section>
 <section id="第三宇宙速度" class="level3">
 <h3 class="anchored" data-anchor-id="第三宇宙速度">第三宇宙速度</h3>
 <ol type="1">
 <li>意义：物体<strong>挣脱太阳引力束缚</strong>的最小发射速度</li>
-<li>大小：<span class="math inline">16.7\; \text{km/h}</span></li>
+<li>大小：<span class="math inline">16.7\; \text{km/s}</span></li>
 </ol>
 </section>
 </section>
@@ -327,8 +337,118 @@ ma &amp; \Rightarrow a=\frac{GM}{r^{2}}
 </section>
 <section id="卫星变轨" class="level2">
 <h2 class="anchored" data-anchor-id="卫星变轨">卫星变轨</h2>
+<section id="d-变轨演示" class="level3">
+<h3 class="anchored" data-anchor-id="d-变轨演示">3D 变轨演示</h3>
+<iframe src="https://ggbtool.phycat.cn/front/?id=ltp5g0vu1wo8&amp;W=800&amp;H=500&amp;E=0&amp;B=1&amp;S=0&amp;P=1&amp;R=0&amp;L=1&amp;F=1&amp;RE=1" width="800" height="500" frameborder="0" scrolling="no" allowfullscreen="">
+</iframe>
+</section>
+<section id="d-变轨演示-1" class="level3">
+<h3 class="anchored" data-anchor-id="d-变轨演示-1">2D 变轨演示</h3>
+<iframe src="https://ggbtool.phycat.cn/front/?id=ltokkbrv1fcn&amp;W=800&amp;H=500&amp;E=0&amp;B=1&amp;S=0&amp;P=1&amp;R=0&amp;L=1&amp;F=1&amp;RE=1" width="800" height="500" frameborder="0" scrolling="no" allowfullscreen="">
+</iframe>
+<section id="例-3" class="level4">
+<h4 class="anchored" data-anchor-id="例-3">例</h4>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p>已知地球半径为 <span class="math inline">R</span>，地球表面的重力加速度为 <span class="math inline">g_0</span>，飞船在绕地球的圆形轨道Ⅰ上运动，<span class="math inline">A</span> 点距地球表面的高度为地球半径的 <span class="math inline">3</span> 倍，飞船到达轨道 <span class="math inline">\mathrm{I}</span> 的 <span class="math inline">A</span> 点时点火变轨进入椭圆轨道 <span class="math inline">\mathrm{II}</span>，到达轨道的近地点 <span class="math inline">B</span> 时再次点火进入近地轨道 <span class="math inline">\mathrm{I I I}</span> 绕地球做圆周运动。已知引力常量 <span class="math inline">G</span>，把地球看做质量分布均匀的球体，求：</p>
+</div><div class="column" style="width:30%;">
+<p><img src="./assets/宇宙航行-1.png" class="img-fluid"></p>
+</div>
+</div>
+<ol type="1">
+<li>两次点火分别是加速还是减速，向前点火喷射还是向后点火喷射；</li>
+<li>飞船在轨道 <span class="math inline">\mathrm{I}</span> 上的运行速率；</li>
+<li>飞船在轨道 <span class="math inline">\mathrm{I I I}</span> 上绕地运行一周所需的时间；</li>
+<li>飞船在轨道 <span class="math inline">\mathrm{II}</span> 上第一次从 A 到 B 的时间；</li>
+<li>若飞船在轨道 <span class="math inline">\mathrm{I I}</span> 上经过 <span class="math inline">A</span> 点的速度大小为 <span class="math inline">v</span>，求在轨道 <span class="math inline">\mathrm{I I}</span> 上经过 <span class="math inline">B</span> 点的速度大小；</li>
+<li>比较 <span class="math inline">T_{\mathrm{I}}</span>、<span class="math inline">T_{\mathrm{I I}}</span>、<span class="math inline">T_{\mathrm{I I I}}</span> 的大小关系；</li>
+<li>比较 <span class="math inline">v_{\mathrm{I}A}</span>、<span class="math inline">v_{\mathrm{I I}A}</span>、<span class="math inline">v_{\mathrm{I I}B}</span>、<span class="math inline">v_{\mathrm{I I I}B}</span> 的大小关系；</li>
+<li>比较 <span class="math inline">v_{\mathrm{I}A}</span> 与 <span class="math inline">v_{\mathrm{I I}A}</span>；<span class="math inline">v_{\mathrm{I I}B}</span> 与 <span class="math inline">v_{\mathrm{I I I}B}</span> 的大小关系。</li>
+</ol>
+</section>
+</section>
+</section>
+<section id="双星多星问题" class="level2">
+<h2 class="anchored" data-anchor-id="双星多星问题">双星/多星问题</h2>
+<iframe src="https://ggbtool.phycat.cn/front/?id=ltoks7c7598&amp;W=800&amp;H=500&amp;E=0&amp;B=1&amp;S=0&amp;P=1&amp;R=0&amp;L=1&amp;F=1&amp;RE=1" width="800" height="500" frameborder="0" scrolling="no" allowfullscreen="">
+</iframe>
+<section id="相等关系" class="level3">
+<h3 class="anchored" data-anchor-id="相等关系">相等关系</h3>
+<ol type="1">
+<li>距离不变，<span class="math inline">F_{n}</span> 相等</li>
+<li>同轴转动，<span class="math inline">\omega,T</span> 相等</li>
+</ol>
+<div class="callout callout-style-default callout-warning callout-titled" title="易错点">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+易错点
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>双星系统圆周运动的圆心在双星连线上一点，因此轨道半径 <span class="math inline">r</span> 不等于双星间的距离 <span class="math inline">L</span>。</p>
+</div>
+</div>
+</section>
+<section id="结论" class="level3">
+<h3 class="anchored" data-anchor-id="结论">结论</h3>
+<p><span class="math display">
+\begin{cases}
+G\frac{m_{1}m_{2}}{L^{2}}=m_{1}\omega^{2}r_{1} \\
+G\frac{m_{1}m_{2}}{L^{2}}=m_{2}\omega^{2}r_{2}
+\end{cases}
+\Rightarrow \frac{m_{2}}{m_{1}}=\frac{r_{1}}{r_{2}}
+</span></p>
+<p>又因为 <span class="math inline">v=\omega r</span> 和 <span class="math inline">a=\omega^{2}r</span>，得</p>
+<p><span class="math display">
+\frac{m_{2}}{m_{1}}=\frac{r_{1}}{r_{2}}=\frac{v_{1}}{v_{2}}=\frac{a_{1}}{a_{2}}
+</span></p>
+<section id="例-4" class="level4">
+<h4 class="anchored" data-anchor-id="例-4">例</h4>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p>宇宙中两个相距较近的天体称为“双星”，它们以两者连线上的某一点为圆心做匀速圆周运动，但两者不会因万有引力的作用而吸引到一起。设两者的质量分别为 <span class="math inline">m_{1}</span> 和 <span class="math inline">m_{2}</span>，两者相距 为 <span class="math inline">L</span>。求： (1)双星的轨道半径之比； (2)双星的线速度之比； (3)双星的角速度。</p>
+</div><div class="column" style="width:30%;">
+<p><img src="./assets/宇宙航行-3.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+</section>
+<section id="拉格朗日点" class="level3">
+<h3 class="anchored" data-anchor-id="拉格朗日点">拉格朗日点</h3>
+<p><strong>定义：</strong> 拉格朗日点（Lagrangian point）又称平动点（libration points）在天体力学中是限制性三体问题的五个特殊解（particular solution）</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./assets/宇宙航行-1.gif" class="img-fluid figure-img"></p>
+<figcaption>三体运动</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./assets/宇宙航行.gif" class="img-fluid figure-img"></p>
+<figcaption>拉格朗日点</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<section id="例-5" class="level4">
+<h4 class="anchored" data-anchor-id="例-5">例</h4>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p>如图，拉格朗日点 <span class="math inline">L_1</span> 位于地球和月球连线上，处在该点的物体在地球和月球引力的共同作用下，可与月球一起以相同的周期绕地球运动。据此，科学家设想在拉格朗日点 <span class="math inline">L_{1}</span> 建立空间站，使其与月球同周期绕地球运动。以 <span class="math inline">a_{1}</span>、<span class="math inline">a_{2}</span> 分别表示该空间站和月球向心加速度的大小，<span class="math inline">a_{3}</span> 表示地球同步卫星向心加速度的大小。比较 <span class="math inline">a_{1},a_{2},a_{3}</span> 的大小。</p>
+</div><div class="column" style="width:30%;">
+<p><img src="./assets/宇宙航行-2.png" class="img-fluid"></p>
+</div>
+</div>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
