@@ -396,14 +396,14 @@
     "href": "posts/功与功率/功与功率_blog.html",
     "title": "功与功率",
     "section": "",
-    "text": "一个物体受到力的作用，并在力的方向上发生了一段位移，这个力就对物体做了功。功是能量转化的量度。 ### 条件 1. 力 2. 物体在力的方向上的位移\n\n\n\n\n表示功的符号为 W\n表达式 W=Fl\\cos\\alpha\n单位：焦耳，简称焦，符号为 J\n\n\n\n\n\n\n\n矢量内积形式\n\n\n\n功得表达式也可以写成矢量内积的形式 W=\\overrightarrow{F}\\cdot\\overrightarrow{l}\n\n\n\n\n\n\n\n支持力做功吗\n\n\n\n\n\n\n支持力做功吗\n\n\n\n\n\n\n弹簧弹力做功吗\n\n\n\n\n\n\n\n功是标量，但它可以分为正功、负功\n\n\n\n\n\n\n比较功的大小\n\n\n\n功比大小时不看正负号，只看绝对值\n\n\n\n\n\n\n\n\n\n\n\n过程量\n\n\n\n功是一个过程所对应的量，因此功是过程量\n\n\n合力做的功等于各个力做功的代数和\n\nW_\\text{合}=F_\\text{合}l\\cos\\alpha（\\alpha 为 F_\\text{合} 与位移 l 的夹角）\nW_\\text{合}=W_1+W_2+W_3+\\cdots（即总功为为各个分力所做功的和）\n\n\n\n\n\n物体沿着倾角为 \\theta 粗糙斜面滑倒底端，斜面长度为 s, 求力对物体做的总功。"
+    "text": "一个物体受到力的作用，并在力的方向上发生了一段位移，这个力就对物体做了功。功是能量转化的量度。\n\n\n\n\n力\n物体在力的方向上的位移\n\n\n\n\n\n表示功的符号为 W\n表达式 W=Fl\\cos\\alpha\n单位：焦耳，简称焦，符号为 J\n\n\n\n\n\n\n\n矢量内积形式\n\n\n\n功得表达式也可以写成矢量内积的形式 W=\\overrightarrow{F}\\cdot\\overrightarrow{l}\n\n\n\n\n\n\n\n支持力做功吗\n\n\n\n\n\n\n支持力做功吗\n\n\n\n\n\n\n弹簧弹力做功吗\n\n\n\n\n\n\n\n功是标量，但它可以分为正功、负功\n\n\n\n\n\n\n比较功的大小\n\n\n\n功比大小时不看正负号，只看绝对值\n\n\n\n\n\n\n\n\n\n\n\n过程量\n\n\n\n功是一个过程所对应的量，因此功是过程量\n\n\n合力做的功等于各个力做功的代数和\n\nW_\\text{合}=F_\\text{合}l\\cos\\alpha（\\alpha 为 F_\\text{合} 与位移 l 的夹角）\nW_\\text{合}=W_1+W_2+W_3+\\cdots（即总功为为各个分力所做功的和）\n\n\n\n\n\n物体沿着倾角为 \\theta 粗糙斜面滑倒底端，斜面长度为 s, 求力对物体做的总功。"
   },
   {
     "objectID": "posts/功与功率/功与功率_blog.html#功",
     "href": "posts/功与功率/功与功率_blog.html#功",
     "title": "功与功率",
     "section": "",
-    "text": "一个物体受到力的作用，并在力的方向上发生了一段位移，这个力就对物体做了功。功是能量转化的量度。 ### 条件 1. 力 2. 物体在力的方向上的位移\n\n\n\n\n表示功的符号为 W\n表达式 W=Fl\\cos\\alpha\n单位：焦耳，简称焦，符号为 J\n\n\n\n\n\n\n\n矢量内积形式\n\n\n\n功得表达式也可以写成矢量内积的形式 W=\\overrightarrow{F}\\cdot\\overrightarrow{l}\n\n\n\n\n\n\n\n支持力做功吗\n\n\n\n\n\n\n支持力做功吗\n\n\n\n\n\n\n弹簧弹力做功吗\n\n\n\n\n\n\n\n功是标量，但它可以分为正功、负功\n\n\n\n\n\n\n比较功的大小\n\n\n\n功比大小时不看正负号，只看绝对值\n\n\n\n\n\n\n\n\n\n\n\n过程量\n\n\n\n功是一个过程所对应的量，因此功是过程量\n\n\n合力做的功等于各个力做功的代数和\n\nW_\\text{合}=F_\\text{合}l\\cos\\alpha（\\alpha 为 F_\\text{合} 与位移 l 的夹角）\nW_\\text{合}=W_1+W_2+W_3+\\cdots（即总功为为各个分力所做功的和）\n\n\n\n\n\n物体沿着倾角为 \\theta 粗糙斜面滑倒底端，斜面长度为 s, 求力对物体做的总功。"
+    "text": "一个物体受到力的作用，并在力的方向上发生了一段位移，这个力就对物体做了功。功是能量转化的量度。\n\n\n\n\n力\n物体在力的方向上的位移\n\n\n\n\n\n表示功的符号为 W\n表达式 W=Fl\\cos\\alpha\n单位：焦耳，简称焦，符号为 J\n\n\n\n\n\n\n\n矢量内积形式\n\n\n\n功得表达式也可以写成矢量内积的形式 W=\\overrightarrow{F}\\cdot\\overrightarrow{l}\n\n\n\n\n\n\n\n支持力做功吗\n\n\n\n\n\n\n支持力做功吗\n\n\n\n\n\n\n弹簧弹力做功吗\n\n\n\n\n\n\n\n功是标量，但它可以分为正功、负功\n\n\n\n\n\n\n比较功的大小\n\n\n\n功比大小时不看正负号，只看绝对值\n\n\n\n\n\n\n\n\n\n\n\n过程量\n\n\n\n功是一个过程所对应的量，因此功是过程量\n\n\n合力做的功等于各个力做功的代数和\n\nW_\\text{合}=F_\\text{合}l\\cos\\alpha（\\alpha 为 F_\\text{合} 与位移 l 的夹角）\nW_\\text{合}=W_1+W_2+W_3+\\cdots（即总功为为各个分力所做功的和）\n\n\n\n\n\n物体沿着倾角为 \\theta 粗糙斜面滑倒底端，斜面长度为 s, 求力对物体做的总功。"
   },
   {
     "objectID": "posts/功与功率/功与功率_blog.html#功率",
