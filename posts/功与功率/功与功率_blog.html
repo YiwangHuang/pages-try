@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="黄轶凡">
-<meta name="dcterms.date" content="2024-03-16">
+<meta name="dcterms.date" content="2024-03-17">
 
 <title>LovePhysics - 功与功率</title>
 <style>
@@ -179,7 +179,7 @@ window.Quarto = {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">March 16, 2024</p>
+        <p class="date">March 17, 2024</p>
       </div>
     </div>
     
@@ -197,13 +197,32 @@ window.Quarto = {
   <ul>
   <li><a href="#功" id="toc-功" class="nav-link active" data-scroll-target="#功">功</a>
   <ul class="collapse">
-  <li><a href="#概念" id="toc-概念" class="nav-link" data-scroll-target="#概念">概念</a></li>
+  <li><a href="#概念" id="toc-概念" class="nav-link" data-scroll-target="#概念">概念</a>
+  <ul class="collapse">
+  <li><a href="#表述" id="toc-表述" class="nav-link" data-scroll-target="#表述">表述</a></li>
   <li><a href="#条件" id="toc-条件" class="nav-link" data-scroll-target="#条件">条件</a></li>
-  <li><a href="#符号表达式和单位" id="toc-符号表达式和单位" class="nav-link" data-scroll-target="#符号表达式和单位">符号、表达式和单位</a></li>
+  <li><a href="#定义式单位" id="toc-定义式单位" class="nav-link" data-scroll-target="#定义式单位">定义式、单位</a></li>
   <li><a href="#标矢性" id="toc-标矢性" class="nav-link" data-scroll-target="#标矢性">标矢性</a></li>
+  </ul></li>
+  <li><a href="#变力做功" id="toc-变力做功" class="nav-link" data-scroll-target="#变力做功">变力做功</a>
+  <ul class="collapse">
+  <li><a href="#类动摩擦力" id="toc-类动摩擦力" class="nav-link" data-scroll-target="#类动摩擦力">类动摩擦力</a></li>
+  <li><a href="#类弹簧弹力" id="toc-类弹簧弹力" class="nav-link" data-scroll-target="#类弹簧弹力">类弹簧弹力</a></li>
+  </ul></li>
   <li><a href="#多个力做功" id="toc-多个力做功" class="nav-link" data-scroll-target="#多个力做功">多个力做功</a></li>
   </ul></li>
-  <li><a href="#功率" id="toc-功率" class="nav-link" data-scroll-target="#功率">功率</a></li>
+  <li><a href="#功率" id="toc-功率" class="nav-link" data-scroll-target="#功率">功率</a>
+  <ul class="collapse">
+  <li><a href="#概念-1" id="toc-概念-1" class="nav-link" data-scroll-target="#概念-1">概念</a>
+  <ul class="collapse">
+  <li><a href="#定义" id="toc-定义" class="nav-link" data-scroll-target="#定义">定义</a></li>
+  <li><a href="#单位" id="toc-单位" class="nav-link" data-scroll-target="#单位">单位</a></li>
+  <li><a href="#标矢性-1" id="toc-标矢性-1" class="nav-link" data-scroll-target="#标矢性-1">标矢性</a></li>
+  </ul></li>
+  <li><a href="#平均功率" id="toc-平均功率" class="nav-link" data-scroll-target="#平均功率">平均功率</a></li>
+  <li><a href="#瞬时功率" id="toc-瞬时功率" class="nav-link" data-scroll-target="#瞬时功率">瞬时功率</a></li>
+  <li><a href="#汽车启动" id="toc-汽车启动" class="nav-link" data-scroll-target="#汽车启动">汽车启动</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -214,10 +233,12 @@ window.Quarto = {
 
 
 
-<section id="功" class="level2">
-<h2 class="anchored" data-anchor-id="功">功</h2>
-<section id="概念" class="level3">
-<h3 class="anchored" data-anchor-id="概念">概念</h3>
+<section id="功" class="level1">
+<h1>功</h1>
+<section id="概念" class="level2">
+<h2 class="anchored" data-anchor-id="概念">概念</h2>
+<section id="表述" class="level3">
+<h3 class="anchored" data-anchor-id="表述">表述</h3>
 <p>一个物体受到力的作用，并在力的方向上发生了一段位移，这个力就对物体做了功。<strong>功是能量转化的量度</strong>。</p>
 </section>
 <section id="条件" class="level3">
@@ -227,11 +248,10 @@ window.Quarto = {
 <li>物体在力的方向上的位移</li>
 </ol>
 </section>
-<section id="符号表达式和单位" class="level3">
-<h3 class="anchored" data-anchor-id="符号表达式和单位">符号、表达式和单位</h3>
+<section id="定义式单位" class="level3">
+<h3 class="anchored" data-anchor-id="定义式单位">定义式、单位</h3>
 <ol type="1">
-<li>表示功的符号为 <span class="math inline">W</span></li>
-<li>表达式 <span class="math inline">W=Fl\cos\alpha</span></li>
+<li>定义式 <span class="math inline">W=Fl\cos\alpha</span></li>
 <li>单位：焦耳，简称焦，符号为 J</li>
 </ol>
 <div class="callout callout-style-default callout-note callout-titled" title="矢量内积形式">
@@ -289,8 +309,43 @@ window.Quarto = {
 </div>
 </div>
 </section>
-<section id="多个力做功" class="level3">
-<h3 class="anchored" data-anchor-id="多个力做功">多个力做功</h3>
+</section>
+<section id="变力做功" class="level2">
+<h2 class="anchored" data-anchor-id="变力做功">变力做功</h2>
+<section id="类动摩擦力" class="level3">
+<h3 class="anchored" data-anchor-id="类动摩擦力">类动摩擦力</h3>
+<ol type="1">
+<li>特点：力 <span class="math inline">F</span> 的大小不变，方向与 <span class="math inline">v</span> 方向夹角恒定</li>
+<li>方法：<span class="math inline">W=F'\cdot S</span>，其中 <span class="math inline">F'</span> 是力 <span class="math inline">F</span> 沿速度 <span class="math inline">v</span> 方向的分量大小，<span class="math inline">S</span> 是路程</li>
+</ol>
+</section>
+<section id="类弹簧弹力" class="level3">
+<h3 class="anchored" data-anchor-id="类弹簧弹力">类弹簧弹力</h3>
+<ol type="1">
+<li>特点：力的方向不变，大小<strong>随位移线性变化</strong></li>
+<li>方法：<span class="math inline">W=\frac{F_{1}+F_{2}}{2}\cdot l</span></li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled" title="物理图像">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+物理图像
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="math inline">F-l</span> 图像的面积表示做功</p>
+</div>
+</div>
+<section id="练习" class="level4">
+<h4 class="anchored" data-anchor-id="练习">练习</h4>
+<p>用铁锤将一铁钉击入木块，设木块对铁钉的阻力与铁钉进入木块内的深度成正比，即 <span class="math inline">F_f=kx</span> (其中 <span class="math inline">×</span> 为铁钉进入木块的深度)，在铁锤击打第一次后，铁钉进入木块的深度为 <span class="math inline">d</span>。求：(1)铁锤对铁钉做功的大小；(2)若铁锤对铁钉每次做功都相等，求击打第二次时，铁钉还能进入的深度。</p>
+</section>
+</section>
+</section>
+<section id="多个力做功" class="level2">
+<h2 class="anchored" data-anchor-id="多个力做功">多个力做功</h2>
 <div class="callout callout-style-default callout-note callout-titled" title="过程量">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -309,8 +364,8 @@ window.Quarto = {
 <li><span class="math inline">W_\text{合}=F_\text{合}l\cos\alpha</span>（<span class="math inline">\alpha</span> 为 <span class="math inline">F_\text{合}</span> 与位移 <span class="math inline">l</span> 的夹角）</li>
 <li><span class="math inline">W_\text{合}=W_1+W_2+W_3+\cdots</span>（即总功为为各个分力所做功的和）</li>
 </ul>
-<section id="练习" class="level4">
-<h4 class="anchored" data-anchor-id="练习">练习</h4>
+<section id="练习-1" class="level4">
+<h4 class="anchored" data-anchor-id="练习-1">练习</h4>
 <div class="columns">
 <div class="column" style="width:70%;">
 <p>物体沿着倾角为 <span class="math inline">\theta</span> 粗糙斜面滑倒底端，斜面长度为 <span class="math inline">s</span>, 求力对物体做的总功。</p>
@@ -321,17 +376,101 @@ window.Quarto = {
 </section>
 </section>
 </section>
-<section id="功率" class="level2">
-<h2 class="anchored" data-anchor-id="功率">功率</h2>
-<p>功率 1. 符号：<span class="math inline">P</span></p>
+<section id="功率" class="level1">
+<h1>功率</h1>
+<section id="概念-1" class="level2">
+<h2 class="anchored" data-anchor-id="概念-1">概念</h2>
+<p>描述做功快慢的物理量</p>
+<section id="定义" class="level3">
+<h3 class="anchored" data-anchor-id="定义">定义</h3>
 <ol type="1">
-<li>表达式：<span class="math inline">P=\frac{W}{t}</span></li>
-<li>标矢性：标量，一般都是正值</li>
-<li></li>
-<li>正负性： 汽车发动机</li>
+<li>定义：一段时间 <span class="math inline">t</span> 内，力做的功 <span class="math inline">W</span> 与时间<span class="math inline">t</span></li>
+<li>定义式：<span class="math inline">P=\frac{W}{t}</span></li>
 </ol>
+</section>
+<section id="单位" class="level3">
+<h3 class="anchored" data-anchor-id="单位">单位</h3>
+<p>瓦特（<span class="math inline">W</span>）或 <span class="math inline">J /s</span></p>
+</section>
+<section id="标矢性-1" class="level3">
+<h3 class="anchored" data-anchor-id="标矢性-1">标矢性</h3>
+<p>标量，一般都是正值</p>
+</section>
+</section>
+<section id="平均功率" class="level2">
+<h2 class="anchored" data-anchor-id="平均功率">平均功率</h2>
+<p><span class="math display">
+\bar{P}=\frac{W}{t}
+</span></p>
+<section id="练习-2" class="level4">
+<h4 class="anchored" data-anchor-id="练习-2">练习</h4>
+<p>质量 <span class="math inline">60 kg</span> 的人，登上大厦的第 11 层用了 <span class="math inline">3 min</span>，如果该楼每层高 <span class="math inline">3.0 m</span>, <span class="math inline">g=10 m/s</span>，则在整个过程中，求这人克服重力做功的平均功率。</p>
+<div class="callout callout-style-default callout-warning callout-titled" title="易错点">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+易错点
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>上楼问题埋伏的坑：从 1 层到 11 层实际爬了 10 层楼</p>
+</div>
+</div>
+</section>
+</section>
+<section id="瞬时功率" class="level2">
+<h2 class="anchored" data-anchor-id="瞬时功率">瞬时功率</h2>
+<p><span class="math display">
+P=Fv\cos \theta
+</span></p>
+<div class="callout callout-style-default callout-note callout-titled" title="矢量内积形式">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+矢量内积形式
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="math inline">\overrightarrow{P}=\overrightarrow{F}\cdot\overrightarrow{v}</span></p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="恒力做功的平均功率">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+恒力做功的平均功率
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="math inline">\bar{P}=F\bar{v}\cos \theta</span></p>
+</div>
+</div>
+<section id="练习-1-1" class="level4">
+<h4 class="anchored" data-anchor-id="练习-1-1">练习 1</h4>
+<p>质量为 <span class="math inline">m</span> 的小球以初速度 <span class="math inline">V_0</span> 水平抛出，恰好垂直打在倾角为 <span class="math inline">\theta</span> 的斜面上（不计空气阻力），计算球落在斜面上时重力的瞬时功率。</p>
+</section>
+<section id="练习-2-1" class="level4">
+<h4 class="anchored" data-anchor-id="练习-2-1">练习 2</h4>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p>如图所示，长为 <span class="math inline">L</span> 的细绳一端固定在 <span class="math inline">O</span> 点，另一端系一质量为 <span class="math inline">m</span> 的小球。开始时，细绳被拉直并处于水平位置，球处在与 <span class="math inline">O</span> 点等高的 <span class="math inline">A</span> 位置。现将球由静止释放，则它从 <span class="math inline">A</span> 点运动到最低点 <span class="math inline">B</span> 的过程中，分析重力瞬时功率的变化情况</p>
+</div><div class="column" style="width:30%;">
+<p><img src="./assets/功与功率-3.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+</section>
+<section id="汽车启动" class="level2">
+<h2 class="anchored" data-anchor-id="汽车启动">汽车启动</h2>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
