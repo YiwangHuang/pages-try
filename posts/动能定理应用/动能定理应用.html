@@ -197,6 +197,7 @@ window.Quarto = {
   <ul>
   <li><a href="#变力做功问题" id="toc-变力做功问题" class="nav-link active" data-scroll-target="#变力做功问题">变力做功问题</a></li>
   <li><a href="#多过程问题" id="toc-多过程问题" class="nav-link" data-scroll-target="#多过程问题">多过程问题</a></li>
+  <li><a href="#函数最值问题" id="toc-函数最值问题" class="nav-link" data-scroll-target="#函数最值问题">函数最值问题</a></li>
   </ul>
 </nav>
     </div>
@@ -401,6 +402,47 @@ mgL\sin \theta-\mu mg\cos \theta s_{总}=0\Rightarrow s_{总}=\frac{L\tan \theta
 <p>从 <span class="math inline">A</span> 点到最后的往复运动(<span class="math inline">B</span> 点)。</p>
 </div>
 </div>
+</section>
+</section>
+</section>
+<section id="函数最值问题" class="level2">
+<h2 class="anchored" data-anchor-id="函数最值问题">函数最值问题</h2>
+<section id="练习-5" class="level4">
+<h4 class="anchored" data-anchor-id="练习-5">练习</h4>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p>一探险队员在探险时遇到一山沟，山沟的一侧竖直，另一侧的坡面呈抛物线形状。此队员从山沟的竖直一侧，以速度 <span class="math inline">v_{0}</span> 沿水平方向跳向另一侧坡面。如图所示，以沟底的 <span class="math inline">O</span> 点为原点建立坐标系 <span class="math inline">Oxy</span>。已知，山沟竖直一侧的高度为 <span class="math inline">2 h</span>，坡面的抛物线方程为 <span class="math inline">y=\frac{1}{2h} x^2</span>，探险队员的质量为 <span class="math inline">m</span>。人视为质点，忽略空气阻力，重力加速度为 <span class="math inline">g</span>。 1. 求此人落到坡面时的动能； 2. 此人水平跳出的速度为多大时，他落在坡面时的动能最小？动能的最小值为多少？</p>
+</div><div class="column" style="width:30%;">
+<p><img src="./assets/动能定理应用-6.png" class="img-fluid"></p>
+</div>
+</div>
+<section id="section-6" class="level5">
+<h5 class="anchored" data-anchor-id="section-6">(1)</h5>
+<p><span class="math display">
+\begin{cases}
+x=v_{0}t \\
+y=2h-\frac{1}{2}gt^{2}
+\end{cases}
+\Rightarrow y=2h-\frac{g}{2v_{0}^{2}}x^{2}
+</span></p>
+<p><span class="math display">
+\begin{cases}
+y=2h-\frac{g}{2v_{0}^{2}}x^{2} \\
+y=\frac{1}{2h}x^{2}
+\end{cases}
+\Rightarrow y_{0}=\frac{2h}{1+\frac{gh}{v_{0}^{2}}}
+</span></p>
+<p><span class="math display">
+E_{k}-\frac{1}{2}mv_{0}^{2}=mg(2h-y)
+\Rightarrow E_{k}=\frac{1}{2}m\left( \frac{4g^{2}h^{2}}{v_{0}^{2}+gh}+v_{0}^{2} \right)
+</span></p>
+</section>
+<section id="section-7" class="level5">
+<h5 class="anchored" data-anchor-id="section-7">(2)</h5>
+<p><span class="math display">
+E_{k}=\frac{1}{2}m\left( \frac{4g^{2}h^{2}}{v_{0}^{2}+gh}+v_{0}^{2} \right)=\frac{1}{2}m\left( \frac{4g^{2}h^{2}}{v_{0}^{2}+gh}+v_{0}^{2}+gh-gh \right)\geq \frac{1}{2}m(4gh-gh)
+</span></p>
+<p>当且仅当 <span class="math inline">\frac{4g^{2}h^{2}}{v_{0}^{2}+gh}=v_{0}^{2}+gh</span> 即 <span class="math inline">v_{0}=\sqrt{ gh }</span> 时，<span class="math inline">E_{k}</span> 取得最小值 <span class="math inline">\frac{3}{2}mgh</span>ß</p>
 
 
 </section>
