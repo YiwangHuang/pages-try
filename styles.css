@@ -1,1 +1,4 @@
 /* css styles */
+strong {
+    color: rgb(255, 102, 161); /* 设置strong标签的文字颜色为红色 */
+}
