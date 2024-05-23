@@ -203,7 +203,6 @@ window.Quarto = {
   </ul></li>
   <li><a href="#电容" id="toc-电容" class="nav-link" data-scroll-target="#电容">电容</a>
   <ul class="collapse">
-  <li><a href="#电容的定义" id="toc-电容的定义" class="nav-link" data-scroll-target="#电容的定义">电容的定义</a></li>
   <li><a href="#平行板电容器电容的决定式" id="toc-平行板电容器电容的决定式" class="nav-link" data-scroll-target="#平行板电容器电容的决定式">平行板电容器电容的决定式</a></li>
   </ul></li>
   <li><a href="#常用电容器" id="toc-常用电容器" class="nav-link" data-scroll-target="#常用电容器">常用电容器</a></li>
@@ -273,18 +272,30 @@ window.Quarto = {
 </tr>
 </tbody>
 </table>
-<p>电容器储存电荷的特性</p>
-<section id="电容的定义" class="level3">
-<h3 class="anchored" data-anchor-id="电容的定义">电容的定义</h3>
+<p>电容器储存电荷的特性 ### 电容的定义</p>
 <p><em>类比水容器的储水本领，引出电容概念</em> &gt;<strong>实验探究</strong>：结合书本图 10.4-4，说明一个电容器所带的电荷量 Q 与两极板之间的电势差 U 之比是不变的。</p>
 <ol type="1">
 <li>定义：电容器所带电量 Q 与两极板间的电势差 U 的比值。</li>
-<li>公式：<span class="math inline">C=\frac{Q}{U}</span>（比值定义法） &gt;同为比值定义法的物理量还有：加速度，场强，电势，电阻 &gt; <strong>注意</strong>：不能说 C 与 Q 成正比，与 U 成反比，==C 的值仅与电容器本身结构特性有关，与带电量及电压无关有关==。</li>
+<li>公式：<span class="math inline">C=\frac{Q}{U}</span>（比值定义法）</li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled" title="注意">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+注意
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>注意</strong>：不能说 C 与 Q 成正比，与 U 成反比，C 的值仅与电容器本身结构特性有关，与带电量及电压无关有关。</p>
+</div>
+</div>
+<ol start="3" type="1">
 <li>意义：描述电容器储存电荷本领的物理量。</li>
 <li>单位：法拉，简称：法，符号为 <span class="math inline">\text{F}</span> 微法 <span class="math inline">1\mu \text{F}=10^{-6}\text{F}</span> 皮法 <span class="math inline">1 \text{pF}=10^{-12}\text{F}</span></li>
 <li>加在电容器两端的 <span class="math inline">工作电压（额定电压）&lt; 击穿电压</span></li>
 </ol>
-</section>
 <section id="平行板电容器电容的决定式" class="level3">
 <h3 class="anchored" data-anchor-id="平行板电容器电容的决定式">平行板电容器电容的决定式</h3>
 <blockquote class="blockquote">
@@ -304,21 +315,65 @@ C=\frac{\varepsilon_{r}S}{4\pi kd}
 </section>
 <section id="电容动态变化问题" class="level2">
 <h2 class="anchored" data-anchor-id="电容动态变化问题">电容动态变化问题</h2>
-<p>如图所示，两块较大的金属板<span class="math inline">A</span>、<span class="math inline">B</span>平行水平放置并与一电源相连，<span class="math inline">S</span>闭合后，两板间有一质量为<span class="math inline">m</span>、带电量为<span class="math inline">q</span>的油滴恰好在<span class="math inline">P</span>点处于静止状态。</p>
 <div class="columns">
 <div class="column" style="width:70%;">
-<ol type="1">
-<li><span class="math inline">S</span> 闭合，<span class="math inline">A</span> 向下移动一小段距离，<span class="math inline">\varphi_{p}</span> 怎么变？</li>
-<li><span class="math inline">S</span>闭合，<span class="math inline">B</span>向下移动一小段距离，<span class="math inline">\varphi_{p}</span> 怎么变？</li>
-<li><span class="math inline">S</span>闭断开，<span class="math inline">A</span>向下移动一小段距离，<span class="math inline">\varphi_{p}</span> 怎么变？</li>
-<li><span class="math inline">S</span>闭断开，<span class="math inline">B</span>向下移动一小段距离，<span class="math inline">\varphi_{p}</span> 怎么变？</li>
-<li><span class="math inline">S</span>闭合，<span class="math inline">A</span>向左移动一小段距离，<span class="math inline">\varphi_{p}</span> 怎么变？</li>
-<li><span class="math inline">S</span>闭断开，<span class="math inline">A</span>向左移动一小段距离，<span class="math inline">\varphi_{p}</span> 怎么变？</li>
-</ol>
+<p>如图所示，两块较大的金属板 <span class="math inline">A</span>、<span class="math inline">B</span> 平行水平放置并与一电源相连，<span class="math inline">S</span> 闭合后，两板间有一质量为 <span class="math inline">m</span>、带电量为 <span class="math inline">q</span> 的油滴恰好在 <span class="math inline">P</span> 点处于静止状态。</p>
 </div><div class="column" style="width:30%;">
 <p><img src="./assets/电容器的电容.png" class="img-fluid"></p>
 </div>
 </div>
+<ol type="1">
+<li><span class="math inline">S</span> 闭合，<span class="math inline">A</span> 向下移动一小段距离，<span class="math inline">\varphi_{p}</span> 怎么变？</li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled" title="难点">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+难点
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><p><span class="math inline">S</span> 闭合，电容器上下极板间电压等于电源电压</p></li>
+<li><p>接地点是零势能点，且理想导线是等势体，所以 <span class="math inline">\varphi_{B}=0</span></p></li>
+<li><p><span class="math inline">U_{BP} = \varphi_{B}-\varphi_{P}\Rightarrow \varphi_{P}=\varphi_{B}-U_{BP}</span>，把判断 <span class="math inline">\varphi_{P}</span> 转化成判断 <span class="math inline">U_{BP}</span></p></li>
+<li><p>两极板间电势差不变，匀强电场中直线的几何等分点就是电势等分点</p></li>
+</ol>
+</div>
+</div>
+</div>
+<ol start="2" type="1">
+<li><span class="math inline">S</span> 闭合，<span class="math inline">B</span> 向下移动一小段距离，<span class="math inline">\varphi_{p}</span> 怎么变？</li>
+<li><span class="math inline">S</span> 断开，<span class="math inline">A</span> 向下移动一小段距离，<span class="math inline">\varphi_{p}</span> 怎么变？</li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled" title="难点">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+难点
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><p><span class="math inline">S</span> 断开，电容器带电量不变，改变电容 <span class="math inline">C</span>，电压 <span class="math inline">U</span> 变化</p></li>
+<li><p>虽然 <span class="math inline">U</span> 和 <span class="math inline">d</span> 都在变化，但是它们的比值不变化，即 <strong><span class="math inline">E</span> 不变</strong>，联立电容的定义式和平行板电容器电容的决定式 <span class="math inline">\frac{Q}{U} = \frac{\varepsilon_{r}S}{4\pi kd}\Rightarrow\frac{U}{d} =\frac{4\pi kQ}{\varepsilon_{r}S}</span></p></li>
+</ol>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><span class="math inline">S</span> 断开，<span class="math inline">B</span> 向下移动一小段距离，<span class="math inline">\varphi_{p}</span> 怎么变？</li>
+<li><span class="math inline">S</span> 闭合，<span class="math inline">A</span> 向左移动一小段距离，<span class="math inline">\varphi_{p}</span> 怎么变？</li>
+<li><span class="math inline">S</span> 断开，<span class="math inline">A</span> 向左移动一小段距离，<span class="math inline">\varphi_{p}</span> 怎么变？</li>
+</ol>
 
 
 </section>
