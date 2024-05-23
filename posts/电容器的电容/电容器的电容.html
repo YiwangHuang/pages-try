@@ -206,7 +206,11 @@ window.Quarto = {
   <li><a href="#平行板电容器电容的决定式" id="toc-平行板电容器电容的决定式" class="nav-link" data-scroll-target="#平行板电容器电容的决定式">平行板电容器电容的决定式</a></li>
   </ul></li>
   <li><a href="#常用电容器" id="toc-常用电容器" class="nav-link" data-scroll-target="#常用电容器">常用电容器</a></li>
-  <li><a href="#电容动态变化问题" id="toc-电容动态变化问题" class="nav-link" data-scroll-target="#电容动态变化问题">电容动态变化问题</a></li>
+  <li><a href="#电容动态变化问题" id="toc-电容动态变化问题" class="nav-link" data-scroll-target="#电容动态变化问题">电容动态变化问题</a>
+  <ul class="collapse">
+  <li><a href="#电容器充电的过程" id="toc-电容器充电的过程" class="nav-link" data-scroll-target="#电容器充电的过程">电容器充电的过程</a></li>
+  <li><a href="#动态变化分析" id="toc-动态变化分析" class="nav-link" data-scroll-target="#动态变化分析">动态变化分析</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -244,10 +248,10 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="电容">电容</h2>
 <table class="table">
 <colgroup>
-<col style="width: 14%">
-<col style="width: 27%">
-<col style="width: 36%">
-<col style="width: 21%">
+<col style="width: 6%">
+<col style="width: 30%">
+<col style="width: 39%">
+<col style="width: 23%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -315,6 +319,11 @@ C=\frac{\varepsilon_{r}S}{4\pi kd}
 </section>
 <section id="电容动态变化问题" class="level2">
 <h2 class="anchored" data-anchor-id="电容动态变化问题">电容动态变化问题</h2>
+<section id="电容器充电的过程" class="level3">
+<h3 class="anchored" data-anchor-id="电容器充电的过程">电容器充电的过程</h3>
+</section>
+<section id="动态变化分析" class="level3">
+<h3 class="anchored" data-anchor-id="动态变化分析">动态变化分析</h3>
 <div class="columns">
 <div class="column" style="width:70%;">
 <p>如图所示，两块较大的金属板 <span class="math inline">A</span>、<span class="math inline">B</span> 平行水平放置并与一电源相连，<span class="math inline">S</span> 闭合后，两板间有一质量为 <span class="math inline">m</span>、带电量为 <span class="math inline">q</span> 的油滴恰好在 <span class="math inline">P</span> 点处于静止状态。</p>
@@ -364,18 +373,39 @@ C=\frac{\varepsilon_{r}S}{4\pi kd}
 <div class="callout-body-container callout-body">
 <ol type="1">
 <li><p><span class="math inline">S</span> 断开，电容器带电量不变，改变电容 <span class="math inline">C</span>，电压 <span class="math inline">U</span> 变化</p></li>
-<li><p>虽然 <span class="math inline">U</span> 和 <span class="math inline">d</span> 都在变化，但是它们的比值不变化，即 <strong><span class="math inline">E</span> 不变</strong>，联立电容的定义式和平行板电容器电容的决定式 <span class="math inline">\frac{Q}{U} = \frac{\varepsilon_{r}S}{4\pi kd}\Rightarrow\frac{U}{d} =\frac{4\pi kQ}{\varepsilon_{r}S}</span></p></li>
+<li><p>虽然 <span class="math inline">U</span> 和 <span class="math inline">d</span> 都在变化，但是它们的比值不变化，即 <strong><span class="math inline">E</span> 不变</strong></p></li>
+<li><p>联立电容的定义式和平行板电容器电容的决定式 <span class="math inline">\frac{Q}{U} = \frac{\varepsilon_{r}S}{4\pi kd}\Rightarrow \frac{U}{d} =\frac{4\pi kQ}{\varepsilon_{r}S}</span></p></li>
 </ol>
 </div>
 </div>
 </div>
-<ol type="1">
+<ol start="4" type="1">
 <li><span class="math inline">S</span> 断开，<span class="math inline">B</span> 向下移动一小段距离，<span class="math inline">\varphi_{p}</span> 怎么变？</li>
 <li><span class="math inline">S</span> 闭合，<span class="math inline">A</span> 向左移动一小段距离，<span class="math inline">\varphi_{p}</span> 怎么变？</li>
 <li><span class="math inline">S</span> 断开，<span class="math inline">A</span> 向左移动一小段距离，<span class="math inline">\varphi_{p}</span> 怎么变？</li>
 </ol>
+<div class="callout callout-style-default callout-tip callout-titled" title="总结">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+总结
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><p>开关闭合（<span class="math inline">U</span> 不变），用几何等分关系做；</p></li>
+<li><p>开关断开（<span class="math inline">Q</span> 不变），分析 <span class="math inline">Ed</span>。</p></li>
+</ol>
+</div>
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
