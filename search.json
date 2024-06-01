@@ -866,5 +866,19 @@
     "title": "质点系牛二",
     "section": "例题",
     "text": "例题\n\n例 1\n\n\n考虑所有接触面的摩擦，已知 m_{1},m_{2},a_{1},a_{2} ，B 对地面的摩擦力是 f，求 F。\n\n\n\n\n隔离法：分别对 A,B 进行受力分析，列方程组\n\n\\begin{cases}\nF-f_{AB}=m_{1}a_{1}\\\\\nf_{AB}-f=m_{2}a_{2}\\\\\n\\end{cases}\\Rightarrow F-f = m_{1}a_{1}+m_{2}a_{2}\n\n质点系牛二：当我们对 A,B 间的作用力不感兴趣时，可以对整个质点系进行受力分析，得到\n\nF-f = m_{1}a_{1}+m_{2}a_{2}\n\n质点系受到的外力只有向左的 f 和向右的 F，质点 A,B 的加速度都是向右的。\n\n\n例 2\n\n\n倾角为 \\alpha 的固定光滑斜面，木板质量是猫的2倍，当绳突然断开时，猫立即向上跑，以保持其相对斜面位置不变，求此时木板沿斜面下滑的加速度。\n\n\n\n\n\n\n例 3\n\n\n物体 B 放在 A 上，A、B 的上下表面均与斜面平行，当两者以相同的初速度靠惯性沿固定斜，B 无相对滑动。已知 m_A、m_B、m_C、\\theta 和 B,C 间动摩擦因数 \\mu 。求：A,B 间的摩擦力；地面对 C 的支持力和摩擦力。\n\n\n\n\n\n\n例 4\n\n\n如图所示，质量为 m_A 的物体 A 沿直角斜面 C 下滑，质量为 m_a 的物体 B 上升，斜面与水平面成 \\theta 角，滑轮与绳的质量及一切摩擦均忽略不计，求斜面作用于地面凸出部分的水平压力的大小。\n\n\n\n\n\n\n例 5\n\n\n如图所示，小框架的质量为 M，中间支柱上套有一个质量为 m 的滑环，今使滑环以初速度 v_{0} 竖直抛出，致使整个框架恰好对地面没有作用力，滑环上升的加速度是多大？"
+  },
+  {
+    "objectID": "posts/randomStudents/randomStudents.html",
+    "href": "posts/randomStudents/randomStudents.html",
+    "title": "面批抽号",
+    "section": "",
+    "text": "Loading…"
+  },
+  {
+    "objectID": "posts/randomStudents/randomStudents.html#面批学号",
+    "href": "posts/randomStudents/randomStudents.html#面批学号",
+    "title": "面批抽号",
+    "section": "",
+    "text": "Loading…"
   }
 ]
