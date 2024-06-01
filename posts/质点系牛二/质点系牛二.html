@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="黄轶凡">
-<meta name="dcterms.date" content="2024-05-25">
+<meta name="dcterms.date" content="2024-02-29">
 
-<title>LovePhysics - 带电粒子在电场中的运动</title>
+<title>LovePhysics - 质点系牛二</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -158,10 +158,10 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">带电粒子在电场中的运动</h1>
+      <h1 class="title">质点系牛二</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">电磁学</div>
-                <div class="quarto-category">静电场</div>
+                <div class="quarto-category">动力学</div>
+                <div class="quarto-category">拓展知识</div>
               </div>
                   </div>
   </div>
@@ -179,7 +179,7 @@ window.Quarto = {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">May 25, 2024</p>
+        <p class="date">February 29, 2024</p>
       </div>
     </div>
     
@@ -195,8 +195,15 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#直线加速度器的设计" id="toc-直线加速度器的设计" class="nav-link active" data-scroll-target="#直线加速度器的设计">直线加速度器的设计</a></li>
-  <li><a href="#带电粒子在电场中的偏转" id="toc-带电粒子在电场中的偏转" class="nav-link" data-scroll-target="#带电粒子在电场中的偏转">带电粒子在电场中的偏转</a></li>
+  <li><a href="#内容" id="toc-内容" class="nav-link active" data-scroll-target="#内容">内容</a></li>
+  <li><a href="#例题" id="toc-例题" class="nav-link" data-scroll-target="#例题">例题</a>
+  <ul class="collapse">
+  <li><a href="#例-1" id="toc-例-1" class="nav-link" data-scroll-target="#例-1">例 1</a></li>
+  <li><a href="#例-2" id="toc-例-2" class="nav-link" data-scroll-target="#例-2">例 2</a></li>
+  <li><a href="#例-3" id="toc-例-3" class="nav-link" data-scroll-target="#例-3">例 3</a></li>
+  <li><a href="#例-4" id="toc-例-4" class="nav-link" data-scroll-target="#例-4">例 4</a></li>
+  <li><a href="#例-5" id="toc-例-5" class="nav-link" data-scroll-target="#例-5">例 5</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -207,154 +214,82 @@ window.Quarto = {
 
 
 
-<section id="直线加速度器的设计" class="level2">
-<h2 class="anchored" data-anchor-id="直线加速度器的设计">直线加速度器的设计</h2>
-<ol type="1">
-<li>在两平行板构成的匀强电场中，要使质子由静止被加速到 <span class="math inline">1.0\times 10^{8}\;m /s</span>，已知质子的比荷为 <span class="math inline">9.6\times 10^{7}\; C/kg</span>，估算加速电压为多少？</li>
-<li>在不改变电压的情况下，增大极板的距离，则粒子获得的最大速度会变吗？</li>
-<li>如此高的电压，你认技术上有困难吗？如果要加速到更大的速度呢？</li>
-</ol>
-<section id="问题" class="level4">
-<h4 class="anchored" data-anchor-id="问题">问题</h4>
-<p>在 <span class="math inline">t＝0</span> 时，<span class="math inline">U_{奇偶}</span> 为正值，此时位于序号为 <span class="math inline">0</span> 金属圆板中央的一个电子，在圆板和圆筒 <span class="math inline">1</span> 之间的电场中由静止开始加速，沿中心轴线冲进圆筒 <span class="math inline">1</span>。为使电子运动到圆筒与圆筒之间各个间隙中都能恰好使静电力的方向跟运动方向相同而不断加速，圆筒长度的设计必须遵照一定的规律。若已知电子的质量为<span class="math inline">m</span>、电子电荷量为<span class="math inline">e</span>、电压的绝对值为<span class="math inline">u</span>，周期为<span class="math inline">T</span>，电子通过圆筒间隙的时间可以忽略不计。</p>
-<p><img src="./assets/带电粒子在电场中的运动-3.png" class="img-fluid"></p>
-<ol type="1">
-<li>交变电压的周期和粒子在金属桶中运动的时间应满足什么关系？</li>
-</ol>
-<div class="callout callout-style-default callout-note callout-titled" title="分析运动过程">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-分析运动过程
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>由于金属导体内部的电场强度等于 0，电子在各个金属圆筒内部都不受静电力的作用，<strong>电子在圆筒内的运动是匀速直线运动，只是在相邻圆筒的间隙中才会被加速</strong>，因此我们要确保每次经过间隙的时候场强都是向左的。</p>
-</div>
-</div>
-</div>
-<ol start="2" type="1">
-<li>金属圆筒的长度和它的序号之间有什么定量关系？第 <span class="math inline">n</span> 个金属圆筒的长度应该是多少？</li>
-</ol>
-<div class="callout callout-style-default callout-note callout-titled" title="答案">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-答案
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>电子在进入第 <span class="math inline">n</span> 个金属圆筒被加速了 <span class="math inline">n</span> 次，此时的速度记为 <span class="math inline">v</span>，由动能定理得 <span class="math inline">neu = \frac{1}{2}mv^{2}\Rightarrow v = \sqrt{ \frac{2neu}{m} }</span></p>
-<p>由上一问知电子在单个金属圆筒中运动的时间为 <span class="math inline">\frac{T}{2}</span>，第 <span class="math inline">n</span> 个圆筒色长度为 <span class="math inline">l = v\frac{T}{2} = \frac{T}{2}\sqrt{ \frac{2neu}{m} }</span></p>
-</div>
-</div>
-</div>
+<section id="内容" class="level2">
+<h2 class="anchored" data-anchor-id="内容">内容</h2>
+<p>表述：质点系的合外力等于各个质点的质量与加速度的乘积的矢量和</p>
+<p>公式：</p>
+<p><span class="math display">
+\overrightarrow{F_{\text{合}}}=m_1\overrightarrow{a_1}+m_2\overrightarrow{a_2}+\cdots +m_n\overrightarrow{a_n}
+</span></p>
+<p>证明： <img src="./assets/质点系牛二.png" class="img-fluid"></p>
+<p><span class="math display">
+\begin{cases}
+    \overrightarrow{F_A}+\overrightarrow{F_{BA}}=m_A\overrightarrow{a_A}\\
+    \overrightarrow{F_B}+\overrightarrow{F_{AB}}=m_B\overrightarrow{a_B}\\
+\end{cases}\Rightarrow \overrightarrow{F_A}+\overrightarrow{F_B}=m_A\overrightarrow{a_A}+m_B\overrightarrow{a_B}
+</span></p>
 </section>
-<section id="练习" class="level4">
-<h4 class="anchored" data-anchor-id="练习">练习</h4>
-<p>在如图甲所示的平行板电容器的两板 <span class="math inline">A</span>、<span class="math inline">B</span> 上分别加如图乙、丙所示的两种电压，开始 <span class="math inline">B</span> 板的电势比 <span class="math inline">A</span> 板高。在电场力作用下原来静止在两板中间的电子开始运动。若两板间距足够大，且不计重力，试分析电子在两种交变电压作用下的运动情况，并画出相应的 <span class="math inline">v-t</span> 图象。</p>
+<section id="例题" class="level2">
+<h2 class="anchored" data-anchor-id="例题">例题</h2>
+<section id="例-1" class="level3">
+<h3 class="anchored" data-anchor-id="例-1">例 1</h3>
 <div class="columns">
-<div class="column" style="width:29.9%;">
-<p><img src="./assets/带电粒子在电场中的运动.png" class="img-fluid"></p>
-</div><div class="column" style="width:70.1%;">
-<p><img src="./assets/带电粒子在电场中的运动-1.png" class="img-fluid"></p>
+<div class="column" style="width:70%;">
+<p>考虑所有接触面的摩擦，已知 <span class="math inline">m_{1},m_{2},a_{1},a_{2}</span> ，<span class="math inline">B</span> 对地面的摩擦力是 <span class="math inline">f</span>，求 <span class="math inline">F</span>。</p>
+</div><div class="column" style="width:30%;">
+<p><img src="./assets/质点系牛二-1.png" class="img-fluid"></p>
 </div>
 </div>
-<div class="callout callout-style-default callout-note callout-titled" title="答案">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-答案
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p><img src="./assets/带电粒子在电场中的运动-2.png" class="img-fluid"></p>
-</div>
+<p>隔离法：分别对 <span class="math inline">A,B</span> 进行受力分析，列方程组</p>
+<p><span class="math display">
+\begin{cases}
+F-f_{AB}=m_{1}a_{1}\\
+f_{AB}-f=m_{2}a_{2}\\
+\end{cases}\Rightarrow F-f = m_{1}a_{1}+m_{2}a_{2}
+</span></p>
+<p>质点系牛二：当我们对 <span class="math inline">A,B</span> 间的作用力不感兴趣时，可以对整个质点系进行受力分析，得到</p>
+<p><span class="math display">
+F-f = m_{1}a_{1}+m_{2}a_{2}
+</span></p>
+<p>质点系受到的外力只有向左的 <span class="math inline">f</span> 和向右的 <span class="math inline">F</span>，质点 <span class="math inline">A,B</span> 的加速度都是向右的。</p>
+</section>
+<section id="例-2" class="level3">
+<h3 class="anchored" data-anchor-id="例-2">例 2</h3>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p>倾角为 <span class="math inline">\alpha</span> 的固定光滑斜面，木板质量是猫的2倍，当绳突然断开时，猫立即向上跑，以保持其相对斜面位置不变，求此时木板沿斜面下滑的加速度。</p>
+</div><div class="column" style="width:30%;">
+<p><img src="./assets/质点系牛二-2.png" class="img-fluid"></p>
 </div>
 </div>
 </section>
+<section id="例-3" class="level3">
+<h3 class="anchored" data-anchor-id="例-3">例 3</h3>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p>物体 <span class="math inline">B</span> 放在 <span class="math inline">A</span> 上，<span class="math inline">A</span>、<span class="math inline">B</span> 的上下表面均与斜面平行，当两者以相同的初速度靠惯性沿固定斜，B 无相对滑动。已知 <span class="math inline">m_A</span>、<span class="math inline">m_B</span>、<span class="math inline">m_C</span>、<span class="math inline">\theta</span> 和 <span class="math inline">B,C</span> 间动摩擦因数 <span class="math inline">\mu</span> 。求：<span class="math inline">A,B</span> 间的摩擦力；地面对 <span class="math inline">C</span> 的支持力和摩擦力。</p>
+</div><div class="column" style="width:30%;">
+<p><img src="./assets/质点系牛二-3.png" class="img-fluid"></p>
+</div>
+</div>
 </section>
-<section id="带电粒子在电场中的偏转" class="level2">
-<h2 class="anchored" data-anchor-id="带电粒子在电场中的偏转">带电粒子在电场中的偏转</h2>
-<section id="问题-1" class="level4">
-<h4 class="anchored" data-anchor-id="问题-1">问题</h4>
-<p><img src="./assets/带电粒子在电场中的运动-4.png" class="img-fluid"></p>
-<p>在一对电压为 <span class="math inline">U</span>、距离为 <span class="math inline">d</span>、长为 <span class="math inline">l</span> 的平行板构成的匀强电场中，一质量为 <span class="math inline">m</span>，电荷量为 <span class="math inline">+q</span> 的电子以 <span class="math inline">v_0</span> 的初速度沿着中心线进入电场，粒子从右侧离开平行板，求：</p>
-<ol type="1">
-<li>加速度 <span class="math inline">a</span>，运动时间 <span class="math inline">t</span>、末速度竖直分量 <span class="math inline">v_{y}</span>、偏移量 <span class="math inline">y</span>；</li>
-</ol>
-<div class="callout callout-style-default callout-note callout-titled" title="答案">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-答案
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-4" class="callout-4-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<ol type="1">
-<li><p><span class="math inline">a=\frac{F}{m}=\frac{qE}{m}=\frac{qU}{md}</span></p></li>
-<li><p><span class="math inline">t=\frac{l}{v_{0}}</span></p></li>
-<li><p><span class="math inline">v_{y}=at=\frac{qUl}{mv_{0}d}</span></p></li>
-<li><p><span class="math inline">y=\frac{1}{2}at^{2}=\frac{qUl^{2}}{2mv_{0}^{2}d}</span></p></li>
-</ol>
+<section id="例-4" class="level3">
+<h3 class="anchored" data-anchor-id="例-4">例 4</h3>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p>如图所示，质量为 <span class="math inline">m_A</span> 的物体 <span class="math inline">A</span> 沿直角斜面 <span class="math inline">C</span> 下滑，质量为 <span class="math inline">m_a</span> 的物体 <span class="math inline">B</span> 上升，斜面与水平面成 <span class="math inline">\theta</span> 角，滑轮与绳的质量及一切摩擦均忽略不计，求斜面作用于地面凸出部分的水平压力的大小。</p>
+</div><div class="column" style="width:30%;">
+<p><img src="./assets/质点系牛二-4.png" class="img-fluid"></p>
 </div>
 </div>
-</div>
-<ol start="2" type="1">
-<li><span class="math inline">\theta</span> 是速度的偏角、<span class="math inline">\alpha</span> 是位移的偏角，分别求 <span class="math inline">\tan \alpha</span> 和 <span class="math inline">\tan \theta</span>。</li>
-</ol>
-<div class="callout callout-style-default callout-note callout-titled" title="答案">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-答案
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<ol type="1">
-<li><p><span class="math inline">\tan \theta= \frac{v_{y}}{v_{0}}=\frac{qUl}{mv_{0}^{2}d}</span></p></li>
-<li><p><span class="math inline">\tan \alpha=\frac{y}{x}</span> = <span class="math inline">\frac{qUl}{2mv_{0}^{2}d}</span></p></li>
-</ol>
-</div>
-</div>
-</div>
-<ol start="3" type="1">
-<li>若在平行板右侧 <span class="math inline">L</span> 处竖直放置一荧光屏，则粒子击中荧光屏的位置？</li>
-</ol>
-<div class="callout callout-style-default callout-note callout-titled" title="答案">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-答案
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-6" class="callout-6-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p><span class="math inline">\frac{y}{L+\frac{l}{2}}=\tan \theta=\frac{eUl}{mdv_{0}^{2}}\Rightarrow y= \frac{eUl}{mdv_{0}^{2}}\left( L+\frac{l}{2} \right)</span></p>
-</div>
+</section>
+<section id="例-5" class="level3">
+<h3 class="anchored" data-anchor-id="例-5">例 5</h3>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p>如图所示，小框架的质量为 <span class="math inline">M</span>，中间支柱上套有一个质量为 <span class="math inline">m</span> 的滑环，今使滑环以初速度 <span class="math inline">v_{0}</span> 竖直抛出，致使整个框架恰好对地面没有作用力，滑环上升的加速度是多大？</p>
+</div><div class="column" style="width:30%;">
+<p><img src="./assets/质点系牛二-5.png" class="img-fluid"></p>
 </div>
 </div>
 

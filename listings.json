@@ -2,9 +2,10 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/randomStudents/randomStudents.html",
+      "/posts/带电粒子在电场中的运动/带电粒子在电场中的运动.html",
       "/posts/静电场物理量梳理/静电场物理量梳理.html",
       "/posts/电容器的电容/电容器的电容.html",
-      "/posts/带电粒子在电场中的运动/带电粒子在电场中的运动.html",
       "/posts/电势差与电场强度的关系/电势差与电场强度的关系.html",
       "/posts/电势差/电势差.html",
       "/posts/电场_电场强度/电场_电场强度.html",
@@ -24,7 +25,7 @@
       "/posts/非惯性参考系和惯性力/非惯性参考系和惯性力.html",
       "/posts/生活中的圆周运动/生活中的圆周运动.html",
       "/posts/向心力/向心力_quarto.html",
-      "/posts/质点系牛二/质点系牛二_quarto.html",
+      "/posts/质点系牛二/质点系牛二.html",
       "/posts/向心加速度/向心加速度_quarto.html"
     ]
   }
