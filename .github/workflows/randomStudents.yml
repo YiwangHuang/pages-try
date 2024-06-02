@@ -18,7 +18,7 @@ jobs:
         python-version: '3.12' # 指定 Python 版本
 
     - name: Run Python script
-      run: ./posts/randomStudents/randomGenerator.py # 指定要运行的 Python 脚本路径
+      run: python ./posts/randomStudents/randomGenerator.py # 指定要运行的 Python 脚本路径
 
     - name: Commit and push if changed
       run: |
