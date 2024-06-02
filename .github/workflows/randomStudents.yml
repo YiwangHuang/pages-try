@@ -31,6 +31,6 @@ jobs:
 
     - name: Commit and push if changed
       run: |
-        git add
+        git add . # 添加当前目录及其子目录中的更改到暂存区
         git commit -m "Update myfile.txt" || exit 0
         git push
