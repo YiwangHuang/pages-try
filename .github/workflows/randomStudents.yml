@@ -1,0 +1,29 @@
+name: randomStudents
+
+on: 
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12' # 指定 Python 版本
+
+    - name: Run Python script
+      run: python extract_student_ID.py # 指定要运行的 Python 脚本路径
+
+    - name: Commit and push if changed
+      run: |
+        git config --global user.email "you@example.com"
+        git config --global user.name "Your Name"
+        git add random_numbers.txt
+        git commit -m "Update myfile.txt" || exit 0
+        git push
