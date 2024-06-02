@@ -31,6 +31,6 @@ jobs:
 
     - name: Commit and push if changed
       run: |
-        git add random_numbers.txt
+        git add
         git commit -m "Update myfile.txt" || exit 0
         git push
