@@ -17,6 +17,9 @@ jobs:
       with:
         python-version: '3.12' # 指定 Python 版本
 
+    - name: instsall_numpy
+      run: pip install numpy
+
     - name: Run Python script
       run: python ./posts/randomStudents/randomGenerator.py # 指定要运行的 Python 脚本路径
 
