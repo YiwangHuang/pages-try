@@ -20,13 +20,17 @@ jobs:
     - name: instsall_numpy
       run: pip install numpy
 
+    - name: Pull
+      run: |
+        git config --global user.email "you@example.com"
+        git config --global user.name "Your Name"
+        git pull
+
     - name: Run Python script
       run: python ./posts/randomStudents/randomGenerator.py # 指定要运行的 Python 脚本路径
 
     - name: Commit and push if changed
       run: |
-        git config --global user.email "you@example.com"
-        git config --global user.name "Your Name"
         git add random_numbers.txt
         git commit -m "Update myfile.txt" || exit 0
         git push
