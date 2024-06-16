@@ -8,24 +8,23 @@ strong {
     padding-right: 5px; /* 右侧内边距 */
 }
 
-.columns {
-    margin-top: 10px;    /* 上侧外边距 */
-    margin-bottom: 10px; /* 下侧外边距 */
-}
+/* .columns {
+    margin-top: 50px;    
+    margin-bottom: 5px; 
+} */
 
 .callout {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 7px; /* 上侧外边距 */
+    margin-bottom: 7px;/* 下侧外边距 */
 }
 
-/* ol li {
-    margin-bottom: 5px !important;
-    padding: 0 !important;
-    border: none !important;
-    font-size: 1em !important;
-    display: list-item !important;
-    list-style: disc inside !important;
-    position: static !important;
-    white-space: normal !important;
-    text-indent: 0 !important;
-} */
+/* 解决callout中列表行间距过大问题 */
+li p {
+    margin-bottom: 0;
+}
+
+/* 减小callout和列表之间的空白 */
+ol,ul,dl {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
