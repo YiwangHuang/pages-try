@@ -7,3 +7,25 @@ strong {
     padding-left: 5px;  /* 左侧内边距 */
     padding-right: 5px; /* 右侧内边距 */
 }
+
+.columns {
+    margin-top: 10px;    /* 上侧外边距 */
+    margin-bottom: 10px; /* 下侧外边距 */
+}
+
+.callout {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* ol li {
+    margin-bottom: 5px !important;
+    padding: 0 !important;
+    border: none !important;
+    font-size: 1em !important;
+    display: list-item !important;
+    list-style: disc inside !important;
+    position: static !important;
+    white-space: normal !important;
+    text-indent: 0 !important;
+} */
